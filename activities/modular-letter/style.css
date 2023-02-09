@@ -20,6 +20,15 @@
 
 
 .block2{
+  background: rgba(176, 248, 248, 0.397);
+  border-radius: 20% 0 10% 0;
+  transform: skew(2deg);
+ mix-blend-mode: multiply; 
+ filter: drop-shadow(15px 5px rgba(238, 161, 170, 0.643));
+ position: right;
+}
+
+.block3{
   background: rgba(9, 68, 68, 0.53);
   border-radius: 20% 0 10% 0;
   transform: skew(2deg);
