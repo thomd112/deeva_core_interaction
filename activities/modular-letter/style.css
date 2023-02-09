@@ -12,9 +12,18 @@
 }
 .block{
   background: rgba(0, 128, 128, 0.53);
-
   border-radius: 20% 0 10% 0;
   transform: skew(2deg);
  mix-blend-mode: multiply; 
  filter: drop-shadow(15px 5px rgb(255, 160, 171));
+}
+
+
+.block2{
+  background: rgba(9, 68, 68, 0.53);
+  border-radius: 20% 0 10% 0;
+  transform: skew(2deg);
+ mix-blend-mode: multiply; 
+ filter: drop-shadow(15px 5px rgb(219, 2, 27));
+ position: right;
 }
