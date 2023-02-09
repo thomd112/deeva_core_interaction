@@ -1,13 +1,21 @@
-h1 {
-  font-family: "fit-variable", sans-serif;
-  font-variation-settings: "wdth" 100;
-  font-size: 300px;
-  font-weight: normal;
-  margin: 0;
-  color: red;
-  transition: all 1000ms ease-in-out;
+
+@font-face {
+  font-family: 'Unique-Regular.otf';
+  src: url('https://fontesk.com/unique-typeface/') format('otf');
+  font-weight: 600;
+  font-style: normal;
 }
-h1:hover{
-  color: blue;
-  font-variation-settings: "wdth" 3600;
+
+#variable {
+  font-family: "Unique-Regular.otf";
+  font-size: 20px;
+  transition: font-size 0.5s ease-in-out;
+  color:blueviolet;
+  text-align: center;
+}
+
+#variable:hover {
+  font-family: "Unique-Vf.ttf";
+  font-size: 70px;
+  color: yellowgreen;
 }
