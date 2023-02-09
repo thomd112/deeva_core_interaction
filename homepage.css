@@ -1,1 +1,21 @@
 /*your homepage css styles go here*/
+body {
+    font-family: Times, serif;
+    text-align: center;
+    font-size: 22px;
+    line-height: 1.2;
+    background-color: #2a52be;
+    color:azure;
+}
+
+/* structure */
+.spacer{
+  height: 100vh;
+  border: 2px solid white;
+}
+
+section{
+  height: 50vh;
+  background: blue;
+  margin: 50px;
+}
