@@ -36,3 +36,19 @@
  filter: drop-shadow(15px 5px rgb(219, 2, 27));
  position: right;
 }
+
+.block{
+	animation: changecolor 400ms linear 200ms 4 alternate;
+}
+
+@keyframes changecolor {
+	0%  {
+		background-color: rgba(0, 0, 255, 0.075);
+	}
+	50% {
+		background-color: rgba(255, 255, 0, 0.284);
+	}
+	100%{
+		background-color: rgba(0, 128, 0, 0.167);
+	}
+}
