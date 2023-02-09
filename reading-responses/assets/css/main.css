@@ -12,17 +12,17 @@ body {
     text-align: center;
     font-size: 38px;
     line-height: 1.2;
-    background-color: #F6F6F2;
+    background-color: #2a52be;
 }
 
 /* structure */
 .spacer{
   height: 100vh;
-  border: 2px solid red;
+  border: 2px solid white;
 }
 
 section{
   height: 50vh;
-  background: yellow;
+  background: blue;
   margin: 50px;
 }
