@@ -1,28 +1,28 @@
 
 * {
-    padding: 0px;
-    margin: 0px;
+  padding: 10px;
+  margin: 10px;
 }
 
 /* type */
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    font-size: 22px;
-    line-height: 1.2;
-    background-color: #2a52be;
-    color:azure;
+font-family: 'Courier New', Courier, monospace;
+text-align: center;
+font-size: 22px;
+line-height: 1.2;
+background-color: antiquewhite;
+color:black;
 }
 
 /* structure */
 .spacer{
-  height: 100vh;
-  border: 2px solid white;
+height: 100vh;
+border: 2px solid white;
 }
 
 section{
-  height: 50vh;
-  background: blue;
-  margin: 50px;
+height: 50vh;
+background: whitesmoke;
+margin: 40px;
 }
