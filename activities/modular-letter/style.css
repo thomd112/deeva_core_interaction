@@ -2,9 +2,27 @@
   box-sizing: border-box;
 }
 
+
+
+.flex-container {
+display: flex;
+flex-direction: row;
+background-color: rgb(126, 171, 215);
+}
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+
+
+
+
 .letter{
   width: 200px;
-  height: 400px;
+  height: 300px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(5, 1fr);
@@ -71,7 +89,7 @@
 
 
 .block{
-	animation: changecolor 400ms linear 200ms 3 alternate;
+	animation: changecolor 200ms linear 200ms 3 alternate;
 }
 
 @keyframes changecolor {
