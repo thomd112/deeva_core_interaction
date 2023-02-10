@@ -1,11 +1,11 @@
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
     font-size: 22px;
     line-height: 1.2;
-    background-color: #2a52be;
-    color:azure;
+    background-color: antiquewhite;
+    color:black;
 }
 
 /* structure */
@@ -16,6 +16,6 @@ body {
 
 section{
   height: 50vh;
-  background: blue;
+  background: whitesmoke;
   margin: 40px;
 }
