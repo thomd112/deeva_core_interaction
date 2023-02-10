@@ -3,8 +3,8 @@
 }
 
 .letter{
-  width: 300px;
-  height: 500px;
+  width: 200px;
+  height: 400px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(5, 1fr);
@@ -21,24 +21,57 @@
 
 .block2{
   background: rgba(176, 248, 248, 0.397);
-  border-radius: 20% 0 10% 0;
+  border-radius: 20% 50% 10% 0;
   transform: skew(3deg);
  mix-blend-mode: multiply; 
  filter: drop-shadow(15px 5px rgba(238, 161, 170, 0.643));
- position: right;
+ 
 }
 
 .block3{
   background: rgba(213, 245, 245, 0.509);
-  border-radius: 20% 0 10% 0;
+  border-radius: 20% 10% 50% 0;
   transform: skew(4deg);
  mix-blend-mode: multiply; 
  filter: drop-shadow(15px 5px rgb(219, 2, 27));
- position: right;
+ 
 }
 
+.block4{
+  background: rgba(167, 195, 248, 0.509);
+  border-radius: 20% 10% 50% 0;
+  transform: skew(4deg);
+ mix-blend-mode: multiply; 
+ filter: drop-shadow(15px 5px rgba(219, 2, 215, 0.254));
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .block{
-	animation: changecolor 400ms linear 200ms 4 alternate;
+	animation: changecolor 400ms linear 200ms 3 alternate;
 }
 
 @keyframes changecolor {
@@ -70,7 +103,7 @@
 }
 
 .block3{
-	animation: changecolor 400ms linear 200ms 4 alternate;
+	animation: changecolor 400ms linear 200ms 5 alternate;
 }
 
 @keyframes changecolor {
