@@ -47,8 +47,8 @@
 
 
 .letter{
-  width: 120px;
-  height: 220px;
+  width: 100px;
+  height: 210px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(5, 1fr);
