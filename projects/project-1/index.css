@@ -11,13 +11,18 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-html {
+
+ 
+
+
+   html {
   background-color: #1B1F3A;
   color: #FF7844(23, 0, 70);
   font-size: 1em;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  line-height: 1.4;
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+
 }
+
 
 h1 {
   /* color: #A64942; */
@@ -27,7 +32,10 @@ h1 {
   text-shadow: 2px 2px #FF7844;
 }
 
-
+a {
+  color: #A64942;
+  text-shadow:2px 2px #FF7844;
+}
 
 /*
  * Remove text-shadow in selection highlight:
