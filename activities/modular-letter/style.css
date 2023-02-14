@@ -65,6 +65,7 @@
 
 
 .block2{
+	
   background: rgba(176, 248, 248, 0.397);
   border-radius: 20% 50% 10% 0;
   transform: skew(3deg);
@@ -74,6 +75,7 @@
 }
 
 .block3{
+	
   background: rgba(213, 245, 245, 0.509);
   border-radius: 20% 10% 50% 0;
   transform: skew(4deg);
@@ -84,6 +86,7 @@
 }
 
 .block4{
+	
   background: rgba(167, 195, 248, 0.509);
   border-radius: 20% 10% 50% 0;
   transform: skew(4deg);
@@ -94,6 +97,7 @@
 }
 
 .block5{
+
 	background: rgba(10, 94, 249, 0.509);
 	border-radius: 20% 10% 50% 0;
 	transform: skew(4deg);
