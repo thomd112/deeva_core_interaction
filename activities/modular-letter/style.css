@@ -20,8 +20,8 @@
 
 
 .letter{
-  width: 200px;
-  height: 300px;
+  width: 100px;
+  height: 200px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(5, 1fr);
@@ -33,8 +33,7 @@
   transform: skew(2deg);
  mix-blend-mode: multiply; 
  filter: drop-shadow(15px 5px rgb(255, 160, 171));
- position: relative;
- top: 30px;
+
 }
 
 
@@ -44,9 +43,7 @@
   transform: skew(3deg);
  mix-blend-mode: multiply; 
  filter: drop-shadow(15px 5px rgba(238, 161, 170, 0.643));
- position: relative;
- left: 270px;
- bottom:290px;
+ 
 }
 
 .block3{
@@ -55,9 +52,7 @@
   transform: skew(4deg);
  mix-blend-mode: multiply; 
  filter: drop-shadow(15px 5px rgb(219, 2, 27));
- position: relative;
- left: 470px;
- bottom:610px;
+ 
  
 }
 
@@ -67,9 +62,7 @@
   transform: skew(4deg);
  mix-blend-mode: multiply; 
  filter: drop-shadow(15px 5px rgba(219, 2, 215, 0.254));
- position: relative;
- left: 750px;
- bottom:920px;
+ 
  
 }
 
@@ -79,9 +72,7 @@
 	transform: skew(4deg);
    mix-blend-mode: multiply; 
    filter: drop-shadow(15px 5px rgba(240, 116, 238, 0.254));
-   position: relative;
- left:1040px;
- bottom:1210px;
+   
    
   }
 
