@@ -8,8 +8,8 @@
 /* type */
 
 body {
-  font-family: 'Courier New', Courier, monospace;
-  text-align: center;
+  font-family: 'Courier New', Courier,;
+  text-align: left;
   font-size: 18px;
   line-height: 1.2;
   background-color: antiquewhite;
@@ -25,5 +25,5 @@ border: 2px solid white;
 section{
 height: 50vh;
 background: whitesmoke;
-margin: 40px;
+margin: 60px;
 }
