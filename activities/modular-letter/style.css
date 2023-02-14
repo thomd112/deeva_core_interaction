@@ -128,7 +128,7 @@
 
 
 .block{
-	animation: changecolor 200ms linear 200ms 2 alternate;
+	animation: changecolor 200ms linear 200ms 3 alternate;
 	rotate: 30deg;
 }
 
@@ -145,7 +145,7 @@
 }
 
 .block2{
-	animation: changecolor 200ms linear 200ms 3 alternate;
+	animation: changecolor 200ms linear 200ms 4 alternate;
 	rotate: 30deg;
 }
 
@@ -162,7 +162,7 @@
 }
 
 .block3{
-	animation: changecolor 200ms linear 200ms 4 alternate;
+	animation: changecolor 200ms linear 200ms 5 alternate;
 	rotate: 30deg;
 }
 
@@ -179,7 +179,7 @@
 }
 
 .block4{
-	animation: changecolor 200ms linear 200ms 5 alternate;
+	animation: changecolor 200ms linear 200ms 6 alternate;
 	rotate: 30deg;
 }
 
@@ -196,7 +196,7 @@
 }
 
 .block5{
-	animation: changecolor 200ms linear 200ms 6 alternate;
+	animation: changecolor 200ms linear 200ms 7 alternate;
 	rotate: 30deg;
 }
 
