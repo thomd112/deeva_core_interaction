@@ -111,6 +111,7 @@
 
 .block{
 	animation: changecolor 200ms linear 200ms 2 alternate;
+	rotate: 30deg;
 }
 
 @keyframes changecolor {
@@ -127,6 +128,7 @@
 
 .block2{
 	animation: changecolor 200ms linear 200ms 3 alternate;
+	rotate: 30deg;
 }
 
 @keyframes changecolor {
@@ -143,6 +145,7 @@
 
 .block3{
 	animation: changecolor 200ms linear 200ms 4 alternate;
+	rotate: 30deg;
 }
 
 @keyframes changecolor {
@@ -159,6 +162,7 @@
 
 .block4{
 	animation: changecolor 200ms linear 200ms 5 alternate;
+	rotate: 30deg;
 }
 
 @keyframes changecolor {
@@ -175,6 +179,7 @@
 
 .block5{
 	animation: changecolor 200ms linear 200ms 6 alternate;
+	rotate: 30deg;
 }
 
 @keyframes changecolor {
