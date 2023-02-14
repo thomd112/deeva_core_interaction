@@ -21,9 +21,10 @@ html {
 background-color: #1B1F3A;
 color: #FF7844(23, 0, 70);
   font-size: 1em;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
   line-height: 1.4;
 }
+
 
 
 /*
