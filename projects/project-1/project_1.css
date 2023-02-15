@@ -14,83 +14,27 @@
   
    
    
-
-
-
-html {
-background-color: #1B1F3A;
-color: #FF7844(23, 0, 70);
-  font-size: 1em;
-  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
-  line-height: 1.4;
-}
+  
 
 
 
 
-
-
-div {
-  background-color: #181d35;
-  width: 300px;
+/* div {
+  /* background-color: #181d35;
+  /* width: 300px; */
   /* border: 10px solid #FF7844; */
-  padding: 100px;
-  margin: 60px;
-  color: #A64942;
-}
+  /* padding: 100px;
+  margin: 60px; */
+  /* color: #A64942; */ 
 
-h1 {
-  width: 300px;
-  height: 300px;
-  transition: width 2s, height 2s, transform 2s;
 
-}
-
-h1:hover {
-  width: 500px;
-  height: 500px;
-  transform: rotate(360deg);
-  
- 
-}
-    body {
-
-        font-family: "ltc-squareface", serif;
-        font-weight: 350;
-        font-size: x-large;
-    }
-  
-
-body{
-    background-color:#181d35;
-}
-      p {
-        /* color: #A64942; */
-        color: #a64942;
-        text-align: left;
-        font-size: 20px;
-        text-shadow: 2px 2px #2326bf;
-      }
-      
-      h1 {
-        color: #A64942;
-        text-shadow:2px 2px #FF7844;
-        text-align: center;
-      }
-     
-     
+    
 
 
 
 
 
 
-
-/* #container > div {
-  /* background-color: #1a40ff; */
-  /* width: 50px;
-  height: 50px;
-} */ 
 
 /*
  * Remove text-shadow in selection highlight:
