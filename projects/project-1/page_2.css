@@ -73,7 +73,10 @@ body{
         text-shadow: 3px 3px #2326bf;
       }
      
-    
+    .two {
+      position: relative;
+      left:530px;
+    }
 
 
 /*
