@@ -11,33 +11,11 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-  
-   
-   
-
-
-
 html {
-background-color: #1B1F3A;
-color: #FF7844(23, 0, 70);
+  color: #222;
   font-size: 1em;
-  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
   line-height: 1.4;
 }
-
-#grad1 {
-  height: 350px;
-  width: 400px;
-  background-image: radial-gradient(#ff794458, 145, 0, 0.162), green, #1B1F3A;
-}
-
-
-
-/* #container > div {
-  /* background-color: #1a40ff; */
-  /* width: 50px;
-  height: 50px;
-} */ 
 
 /*
  * Remove text-shadow in selection highlight:
@@ -58,8 +36,6 @@ color: #FF7844(23, 0, 70);
   background: #b3d4fc;
   text-shadow: none;
 }
-
-
 
 /*
  * A better looking default horizontal rule
@@ -110,73 +86,6 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-  
-
-   main {
-    background: cornsilk;
-    width: 90vw;
-    margin:  auto;
-  }
-
-  body {
-    font-family: 'Cabin Sketch';
-   
-  }
-    
-    article {
-    display: grid;
-    grid-template-columns: 3fr 3fr 3fr;
-    grid-template-rows: minmax(300px,max-content);
-    gap: 2rem;
-    }
-
-  section {
-    background: orange;
-    padding: 5rem;
-  }
-
-  nav ul{
-    display: flex;
-    background-color: yellow;
-    padding:1rem;
-  }
-
-  nav li {
-    flex: auto;
-    padding:1rem;
-    margin:1rem;
-    background-color:green;
-  }
-
-  .box {
-    display:flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width:200px;
-    padding:1rem;
-    margin:5rem;
-    background-color:pink;
-    border: 1px solid #999;
-  }
-
-  .box>:first-child {
-    align-self: stretch;
-  }
-  .box.selected {
-    align-self:center;
-  }
-
-  .flex-item {
-    padding:1rem;
-    margin:1rem;
-    background-color:lightblue;
-    border:1px solid #999;
-  }
-  
- 
-
-
-
 
 /* ==========================================================================
    Helper classes
