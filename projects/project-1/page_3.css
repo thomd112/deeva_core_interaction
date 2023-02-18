@@ -11,61 +11,11 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-  
-   
-   
-  
-
-   /* .parent {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    } */
-    
-   .parent {
-      display: grid;
-      grid-template-columns: repeat( 2fr);
-      grid-template-rows: (3,4fr);
-    } 
-    
-
-
-    .div1 { grid-area: 2 / 1 / 2 / 2; }
-    .div2 { grid-area: 1 / 2 / 3 / 3; }
-    .div3 { grid-area: 3 / 1 / 4 / 2; }
-    .div4 { grid-area: 4 / 2 / 5 / 3; }
-    .div5 { grid-area: 5 / 1 / 6 / 2; }
-    
-
-
-
-    .div1:hover {
-      height: max-content;
-      font-weight: 300;
-      }
-
-
-  .a::after {
-       text-align: right;
-  }
-     
-
-/* 
-.div1 {
-background-color: #b3d4fc;
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
 }
-
-  
-
-.div2:hover {
-  background-color: #b3d4fc;
-  } */
-
-
-
-
 
 /*
  * Remove text-shadow in selection highlight:
@@ -86,8 +36,6 @@ background-color: #b3d4fc;
   background: #b3d4fc;
   text-shadow: none;
 }
-
-
 
 /*
  * A better looking default horizontal rule
@@ -138,73 +86,6 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-  
-
-   main {
-    background: cornsilk;
-    width: 90vw;
-    margin:  auto;
-  }
-
-  body {
-    font-family: 'Cabin Sketch';
-   
-  }
-    
-    article {
-    display: grid;
-    grid-template-columns: 3fr 3fr 3fr;
-    grid-template-rows: minmax(300px,max-content);
-    gap: 2rem;
-    }
-
-  section {
-    background: orange;
-    padding: 5rem;
-  }
-
-  nav ul{
-    display: flex;
-    background-color: yellow;
-    padding:1rem;
-  }
-
-  nav li {
-    flex: auto;
-    padding:1rem;
-    margin:1rem;
-    background-color:green;
-  }
-
-  .box {
-    display:flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width:200px;
-    padding:1rem;
-    margin:5rem;
-    background-color:pink;
-    border: 1px solid #999;
-  }
-
-  .box>:first-child {
-    align-self: stretch;
-  }
-  .box.selected {
-    align-self:center;
-  }
-
-  .flex-item {
-    padding:1rem;
-    margin:1rem;
-    background-color:lightblue;
-    border:1px solid #999;
-  }
-  
- 
-
-
-
 
 /* ==========================================================================
    Helper classes
