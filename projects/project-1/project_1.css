@@ -64,6 +64,8 @@ body{
         font-size: 26px;
         text-shadow: 3px 3px #2326bf;
       }
+
+      
       
     
       .parent {
@@ -89,6 +91,8 @@ body{
       height: max-content;
       font-weight: 300;
       }
+
+      
 
 
   .a::after {
