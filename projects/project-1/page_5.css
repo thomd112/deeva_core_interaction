@@ -69,8 +69,33 @@ body{
         width: 100%;
       }
     }
+   
+    .slides {
+      animation-duration: 3s;
+      animation-name: slides;
+      animation-iteration-count: 3;
+      animation-direction: alternate;
+    }
     
+    @keyframes slides {
+      from {
+        margin-right: 100%;
+        width: 300%;
+      }
+    
+      to {
+        margin-right: 0%;
+        width: 100%;
+      }
+    }
 
+    .rectangle{
+      height: 20px;
+  max-width: 1000px;
+  background-color: rgba(188, 90, 90, 0.771);
+  align-items: center;
+    }
+   
 
 
 
