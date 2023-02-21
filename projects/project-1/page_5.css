@@ -90,10 +90,23 @@ body{
     }
 
     .rectangle{
-      height: 20px;
-  max-width: 1000px;
-  background-color: rgba(188, 90, 90, 0.771);
+      height: 10px;
+  max-width: 1600px;
+  background-color: rgba(255, 170, 0, 0.505);
   align-items: center;
+  animation: change-color 7s;
+    }
+
+    @keyframes change-color {
+      0% {
+        background-color: rgb(255, 196, 0);
+      }
+      50% {
+        background-color: rgb(255, 89, 0);
+      }
+      100% {
+        background-color: #181d35;
+      }
     }
    
 
