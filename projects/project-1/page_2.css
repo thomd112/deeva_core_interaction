@@ -33,7 +33,7 @@ div {
   width: 300px;
   padding: 80px;
   margin: 60px;
-  color: #A64942;
+  color: #ed6056;
 }  
 
 .parent {
@@ -90,14 +90,14 @@ body{
 }
       p {
         /* color: #A64942; */
-        color: #a64942;
+        color: #d45a51;
         text-align: left;
         font-size: 20px;
         text-shadow: 2px 2px #2326bf;
       }
       
       h1 {
-        color: #A64942;
+        color: #e45c52;
         text-shadow:2px 2px #FF7844;
       }
 
