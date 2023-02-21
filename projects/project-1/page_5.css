@@ -17,6 +17,128 @@ html {
   line-height: 1.4;
 }
 
+
+h1 {
+  width: 500;
+  height: 500;
+  text-align: center;
+}
+
+    body {
+
+        font-family: "ltc-squareface", serif;
+        font-weight: 350;
+        font-size: x-large;
+    }
+  
+
+body{
+    background-color:#181d35;
+}
+      div {
+        /* color: #A64942; */
+        color: #FF7844;
+        text-align: left;
+        font-size: 20px;
+        text-shadow: 2px 2px #2326bf;
+      }
+      
+      h1 {
+        color: #A64942;
+        text-shadow:2px 2px #FF7844;
+      }
+
+      h2 {
+        color: #a64942;
+        text-align: left;
+        font-size: 30px;
+        text-shadow: 3px 3px #2326bf;
+      }
+
+
+
+
+
+
+
+
+
+
+/* .angry-grid {
+   display: grid; 
+
+   grid-template-rows: 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   
+   gap: 0px;
+   height: 100%;
+    */
+
+  
+/* #item-0 { */
+
+   /* background-color: #5db759;  */
+   /* grid-row-start: 1;
+   grid-column-start: 1;
+
+   grid-row-end: 2;
+   grid-column-end: 3; */
+   
+/* }
+#item-1 { */
+
+   /* background-color: #be75a5;  */
+   /* grid-row-start: 2;
+   grid-column-start: 1;
+
+   grid-row-end: 4;
+   grid-column-end: 2;
+   
+}
+#item-2 {
+
+   /* background-color: #db5d7b;  */
+   /* grid-row-start: 2;
+   grid-column-start: 2;
+
+   grid-row-end: 4;
+   grid-column-end: 3; */
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
