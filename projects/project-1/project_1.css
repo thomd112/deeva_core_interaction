@@ -147,8 +147,8 @@ body{
         body 
 
         .roofs {
-            width: 20%;
-            top: 350%;
+            width: 70%;
+            top: 460%;
             position: absolute;
             left: 5%;
             border-bottom: 5px solid rgb(248, 165, 114);
@@ -174,6 +174,35 @@ body{
                 height: 80px;
             }
         }
+
+        .shadow {
+          width: 70%;
+          top: 660%;
+          position: absolute;
+          left: 5%;
+          border-bottom: 50px solid rgb(17, 44, 50);
+          overflow: scroll;
+          animation: animate 0.5s;
+      }
+   
+      .shadow p {
+          color: rgba(255, 255, 255, 0.671);
+      }
+   
+      @keyframes animate {
+          0% {
+              width: 0px;
+              height: 0px;
+          }
+          30% {
+              width: 50px;
+              height: 20px;
+          }
+          60% {
+              width: 50px;
+              height: 80px;
+          }
+      }
     
 
 

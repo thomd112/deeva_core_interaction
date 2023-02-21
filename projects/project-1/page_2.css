@@ -121,14 +121,10 @@ body{
       opacity: 0.7;
      }
 
-     .hover-me {
-      background-color: #e45c52(255, 255, 255);
-      transition: background-color 0.7s ease; /* adds a smooth transition effect */
-    }
-    
-    .hover-me:hover {
-      background-color: rgb(15, 15, 42);
-    }
+.rectangle{
+  min-width: none;
+  color:#a64942;
+}
     
 
 /*
