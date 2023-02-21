@@ -51,6 +51,26 @@ body{
       color: #FF7844;
     }
 
+    .slide {
+      animation-duration: 3s;
+      animation-name: slide;
+      animation-iteration-count: 3;
+      animation-direction: alternate;
+    }
+    
+    @keyframes slide {
+      from {
+        margin-left: 100%;
+        width: 300%;
+      }
+    
+      to {
+        margin-left: 0%;
+        width: 100%;
+      }
+    }
+    
+
 
 
 
