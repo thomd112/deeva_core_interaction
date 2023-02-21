@@ -92,8 +92,89 @@ body{
       font-weight: 300;
       }
 
+      .div1{
+        font-size: xx-large;
+        }
 
-      
+      .div2{
+        font-size: xx-large;
+        }
+
+      .div3{
+        font-size: xx-large;
+        }
+
+     
+
+        p {
+          animation-duration: 3s;
+          animation-name: slidein;
+        }
+        
+        @keyframes slidein {
+          from {
+            margin-left: 100%;
+            width: 300%;
+          }
+        
+          to {
+            margin-left: 0%;
+            width: 100%;
+          }
+        }
+
+        h3 {
+          animation-duration: 12s;
+          animation-name: slidein;
+        }
+        
+        @keyframes slidein {
+          from {
+            margin-left: 100%;
+            width: 300%;
+          }
+        
+          to {
+            margin-left: 0%;
+            width: 100%;
+          }
+        }
+
+
+
+
+
+        body 
+
+        .roofs {
+            width: 20%;
+            top: 350%;
+            position: absolute;
+            left: 5%;
+            border-bottom: 5px solid rgb(248, 165, 114);
+            overflow: hidden;
+            animation: animate 20s linear forwards;
+        }
+     
+        .roofs h1 {
+            color: rgba(255, 255, 255, 0.671);
+        }
+     
+        @keyframes animate {
+            0% {
+                width: 0px;
+                height: 0px;
+            }
+            30% {
+                width: 50px;
+                height: 0px;
+            }
+            60% {
+                width: 50px;
+                height: 80px;
+            }
+        }
+    
 
 
   .a::after {
