@@ -36,7 +36,7 @@ h1 {
     body {
 
       font-family: 'Teko', sans-serif;
-        font-weight: 350;
+        font-weight: 550;
         font-size: xx-large;
     }
   
@@ -97,11 +97,12 @@ body{
         }
 
       .div2{
-        font-size: xx-large;
+        /* font-size: xx-large; */
+        font-weight: 950;
         }
 
       .div3{
-        font-size: xx-large;
+        font-weight: 950;
         }
 
      
@@ -175,35 +176,7 @@ body{
             }
         }
 
-        .shadow {
-          width: 70%;
-          top: 660%;
-          position: absolute;
-          left: 5%;
-          border-bottom: 50px solid rgb(17, 44, 50);
-          overflow: scroll;
-          animation: animate 0.5s;
-      }
-   
-      .shadow p {
-          color: rgba(255, 255, 255, 0.671);
-      }
-   
-      @keyframes animate {
-          0% {
-              width: 0px;
-              height: 0px;
-          }
-          30% {
-              width: 50px;
-              height: 20px;
-          }
-          60% {
-              width: 50px;
-              height: 80px;
-          }
-      }
-    
+        
 
 
   .a::after {
