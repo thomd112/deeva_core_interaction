@@ -95,6 +95,9 @@ body{
   background-color: rgba(255, 170, 0, 0.505);
   align-items: center;
   animation: change-color 7s;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.359),
+               0 0 20px rgba(255, 255, 255, 0.317),
+               0 0 30px rgba(255, 255, 255, 0.189);
     }
 
     @keyframes change-color {
