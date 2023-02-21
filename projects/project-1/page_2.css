@@ -108,7 +108,7 @@ body{
         text-shadow: 3px 3px #2326bf;
       }
 
-     .color:hover{
+     .color{
       background-color: beige;
       transition: 2s;
       font-size: 300%;
@@ -121,6 +121,15 @@ body{
       opacity: 0.7;
      }
 
+     .hover-me {
+      background-color: #e45c52(255, 255, 255);
+      transition: background-color 0.7s ease; /* adds a smooth transition effect */
+    }
+    
+    .hover-me:hover {
+      background-color: rgb(15, 15, 42);
+    }
+    
 
 /*
  * Remove the gap between audio, canvas, iframes,
