@@ -16,12 +16,18 @@
 
 
    html {
-  background-color: #1B1F3A;
+    background: #355C7D;  
+background: (to right, #FFE373, #FF7844, #355C7D);  
+background: linear-gradient(to right, #0e2e4b, #362259, #FF7844); 
+
+    
   color: #FF7844(23, 0, 70);
   font-size: 1em;
   /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
 
 }
+
+
 
 
 h1 {
