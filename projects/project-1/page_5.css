@@ -51,7 +51,7 @@ body{
       color: #FF7844;
     }
 
-    .slide {
+    /* .slide {
       animation-duration: 3s;
       animation-name: slide;
       animation-iteration-count: 3;
@@ -75,7 +75,7 @@ body{
       animation-name: slides;
       animation-iteration-count: 3;
       animation-direction: alternate;
-    }
+    } */
     
     @keyframes slides {
       from {
@@ -89,7 +89,7 @@ body{
       }
     }
 
-    .rectangle{
+    /* .rectangle{
       height: 10px;
   max-width: 1600px;
   background-color: rgba(255, 170, 0, 0.505);
@@ -110,7 +110,7 @@ body{
       100% {
         background-color: #181d35;
       }
-    }
+    } */
    
 
 
