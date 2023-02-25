@@ -16,9 +16,9 @@
 
 
    html {
-    background: #355C7D;  
-background: (to right, #FFE373, #FF7844, #355C7D);  
-background: linear-gradient(to right, #0e2e4b, #362259, #FF7844); 
+    
+/* background: (to right, #FFE373, #FF7844, #355C7D);   */
+background: linear-gradient(to left, #0e2e4b, #362259, #FF7844); 
 
     
   color: #FF7844(23, 0, 70);
