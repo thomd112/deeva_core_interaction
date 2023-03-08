@@ -28,8 +28,8 @@ body{
 h1{
   color: #ffffff;
   font-family: 'Courier New', Courier, monospace;
-  text-align: justify;
-  font-size: 130px;
+  text-align: center;
+  font-size: 120px;
 }
 
 .grid{
