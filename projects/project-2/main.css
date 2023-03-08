@@ -27,10 +27,24 @@ body{
 
 h1{
   color: #ffffff;
-  font-family: 'Courier New', Courier, monospace;
-  text-align: center;
-  font-size: 120px;
+  font-family: "cy", sans-serif;
+font-weight: 600;
+font-style: normal;
+font-size: 150px;
+text-align: center;
+
+color: #e3dede;
 }
+
+.container{
+  display: grid;
+  grid-template-columns: 24fr 1fr;
+}
+
+a:visited{
+  color:#b3d4fc
+}
+
 
 .grid{
   display: grid;
