@@ -43,6 +43,10 @@ color: #e3dede;
 
 a:visited{
   color:#b3d4fc
+  
+}
+a:link{
+  text-decoration: none;
 }
 
 
