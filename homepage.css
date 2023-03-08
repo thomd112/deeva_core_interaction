@@ -10,6 +10,15 @@ h1{
   text-align: center;
 }
 
+h2{
+  text-align: left;
+}
+
+.container{
+  display: grid;
+
+}
+
 a{
   font-family: "quatro-slab", serif;
 font-weight: 700;
