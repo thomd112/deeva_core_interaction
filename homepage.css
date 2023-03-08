@@ -3,12 +3,13 @@ body {
   font-weight: 700;
   font-style: normal;
   background-color: #A4AA83;
+  margin:50px;
 
 }
 
 h1{
   color:#4C411A;
-  text-align: center;
+  text-align: justify;
 }
 
 h2{
@@ -16,14 +17,22 @@ h2{
   text-align: left;
 }
 
-.container{
-  display: grid;
 
+
+
+.wrap {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-auto-rows: 50px;
 }
 
+
+
+
+
 a{
-  font-family: "quatro-slab", serif;
-  font-size: large;
+font-family: "quatro-slab", serif;
+font-size: large;
 font-weight: 700;
 font-style: normal;
 color:#F3EED9;
