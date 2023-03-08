@@ -2,15 +2,17 @@ body {
   font-family: "quatro-slab", serif;
   font-weight: 700;
   font-style: normal;
-  background-color: #B2AC88;
+  background-color: #A4AA83;
 
 }
 
 h1{
+  color:#4C411A;
   text-align: center;
 }
 
 h2{
+  color: #4C411A;
   text-align: left;
 }
 
@@ -21,9 +23,10 @@ h2{
 
 a{
   font-family: "quatro-slab", serif;
+  font-size: large;
 font-weight: 700;
 font-style: normal;
-color: beige;
+color:#F3EED9;
 text-transform:capitalize;
 text-decoration: none;
 
