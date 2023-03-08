@@ -17,8 +17,9 @@ h2{
   text-align: left;
 }
 
-
-
+.wra{
+  text-align:right;
+}
 
 .wrap {
   display: grid;
