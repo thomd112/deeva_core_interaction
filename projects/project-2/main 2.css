@@ -18,8 +18,13 @@ html {
 }
 
 body{
-  background-color: rgb(180, 178, 178);
-
+  background-color: #222;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+font-family: "cy", sans-serif;
+font-weight: 600;
+font-style: normal;
 }
 
 
@@ -37,16 +42,17 @@ height: 135px;
 left: 306px;
 top: 169px;
 
-font-family: 'Nova Round';
+
+
+font-family: "cy", sans-serif;
+font-weight: 600;
 font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 43px;
+font-size: xx-large;
 text-align: center;
 
-color: #000000;
+color: #e3dede;
 
-border: 1px solid #000000;
+/* border: 1px solid #000000; */
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -61,14 +67,13 @@ height: 135px;
 left: 1001px;
 top: 169px;
 
-font-family: 'Nova Round';
+font-family: "cy", sans-serif;
+font-weight: 600;
 font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 43px;
+font-size: xx-large;
 text-align: center;
 
-color: #000000;
+color: #e3dede;
 
 
 }
@@ -83,14 +88,13 @@ height: 135px;
 left: 863px;
 top: 169px;
 
-font-family: 'Nova Round';
+font-family: "cy", sans-serif;
+font-weight: 600;
 font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 43px;
+font-size: xx-large;
 text-align: center;
 
-color: #000000;
+color: #e3dede;
 
 }
 
@@ -104,14 +108,13 @@ height: 135px;
 left: 583px;
 top: 169px;
 
-font-family: 'Nova Round';
+font-family: "cy", sans-serif;
+font-weight: 600;
 font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 43px;
+font-size: xx-large;
 text-align: center;
 
-color: #000000;
+color: #e3dede;
 
 
 }
@@ -127,14 +130,13 @@ height: 135px;
 left: 721px;
 top: 169px;
 
-font-family: 'Nova Round';
+font-family: "cy", sans-serif;
+font-weight: 600;
 font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 43px;
+font-size: xx-large;
 text-align: center;
 
-color: #000000;
+color: #e3dede;
 
 }
 
@@ -149,14 +151,13 @@ height: 135px;
 left: 445px;
 top: 169px;
 
-font-family: 'Nova Round';
+font-family: "cy", sans-serif;
+font-weight: 600;
 font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 43px;
+font-size: xx-large;
 text-align: center;
 
-color: #000000;
+color: #e3dede;
 
 
 }
@@ -170,14 +171,13 @@ height: 136px;
 left: 306px;
 top: 306px;
 
-font-family: 'Nova Round';
+font-family: "cy", sans-serif;
+font-weight: 600;
 font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 43px;
+font-size: xx-large;
 text-align: center;
 
-color: #000000;
+color: #e3dede;
 
 }
 
@@ -192,14 +192,13 @@ height: 136px;
 left: 1000px;
 top: 306px;
 
-font-family: 'Nova Round';
+font-family: "cy", sans-serif;
+font-weight: 600;
 font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 43px;
+font-size: xx-large;
 text-align: center;
 
-color: #000000;
+color: #e3dede;
 }
 
 
@@ -212,14 +211,12 @@ height: 136px;
 left: 862px;
 top: 306px;
 
-font-family: 'Nova Round';
+font-family: "cy", sans-serif;
+font-weight: 600;
 font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 43px;
+font-size: xx-large;
 text-align: center;
-
-color: #fdfdfd;
+color: #e3dede;
 
 }
 
@@ -234,14 +231,13 @@ height: 136px;
 left: 582px;
 top: 306px;
 
-font-family: 'Nova Round';
+font-family: "cy", sans-serif;
+font-weight: 600;
 font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 43px;
+font-size: xx-large;
 text-align: center;
 
-color: #000000;
+color: #e3dede;
 }
 
 
@@ -255,14 +251,13 @@ height: 136px;
 left: 720px;
 top: 306px;
 
-font-family: 'Nova Round';
+font-family: "cy", sans-serif;
+font-weight: 600;
 font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 43px;
+font-size: xx-large;
 text-align: center;
 
-color: #000000;
+color: #e3dede;
 
 
 
@@ -277,14 +272,13 @@ height: 136px;
 left: 444px;
 top: 306px;
 
-font-family: 'Nova Round';
+font-family: "cy", sans-serif;
+font-weight: 600;
 font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 43px;
+font-size: xx-large;
 text-align: center;
 
-color: #000000;
+color: #e3dede;
 }
 
 
@@ -297,14 +291,13 @@ height: 135px;
 left: 306px;
 top: 444px;
 
-font-family: 'Nova Round';
+font-family: "cy", sans-serif;
+font-weight: 600;
 font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 43px;
+font-size: xx-large;
 text-align: center;
 
-color: #000000;
+color: #e3dede;
 
 
 
@@ -320,14 +313,13 @@ height: 135px;
 left: 1001px;
 top: 444px;
 
-font-family: 'Nova Round';
+font-family: "cy", sans-serif;
+font-weight: 600;
 font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 43px;
+font-size: xx-large;
 text-align: center;
 
-color: #000000;
+color: #e3dede;
 }
 
 
@@ -341,14 +333,13 @@ height: 135px;
 left: 863px;
 top: 444px;
 
-font-family: 'Nova Round';
+font-family: "cy", sans-serif;
+font-weight: 600;
 font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 43px;
+font-size: xx-large;
 text-align: center;
 
-color: #000000;
+color: #e3dede;
 
 }
 
@@ -363,14 +354,13 @@ height: 135px;
 left: 582px;
 top: 444px;
 
-font-family: 'Nova Round';
+font-family: "cy", sans-serif;
+font-weight: 600;
 font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 43px;
+font-size: xx-large;
 text-align: center;
 
-color: #000000;
+color: #e3dede;
 }
 
 
@@ -384,14 +374,13 @@ height: 135px;
 left: 720px;
 top: 444px;
 
-font-family: 'Nova Round';
+font-family: "cy", sans-serif;
+font-weight: 600;
 font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 43px;
+font-size: xx-large;
 text-align: center;
 
-color: #000000;
+color: #e3dede;
 
 
 }
@@ -406,14 +395,13 @@ height: 135px;
 left: 444px;
 top: 444px;
 
-font-family: 'Nova Round';
+font-family: "cy", sans-serif;
+font-weight: 600;
 font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 43px;
+font-size: xx-large;
 text-align: center;
 
-color: #000000;
+color: #e3dede;
 }
 
 
@@ -426,14 +414,13 @@ height: 136px;
 left: 306px;
 top: 581px;
 
-font-family: 'Nova Round';
+font-family: "cy", sans-serif;
+font-weight: 600;
 font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 43px;
+font-size: xx-large;
 text-align: center;
 
-color: #000000;
+color: #e3dede;
 }
 
 
@@ -448,14 +435,13 @@ height: 136px;
 left: 1000px;
 top: 581px;
 
-font-family: 'Nova Round';
+font-family: "cy", sans-serif;
+font-weight: 600;
 font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 43px;
+font-size: xx-large;
 text-align: center;
 
-color: #000000;
+color: #e3dede;
 }
 
 
@@ -468,14 +454,13 @@ height: 136px;
 left: 862px;
 top: 581px;
 
-font-family: 'Nova Round';
+font-family: "cy", sans-serif;
+font-weight: 600;
 font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 43px;
+font-size: xx-large;
 text-align: center;
 
-color: #000000;
+color: #e3dede;
 }
 
 
@@ -489,14 +474,13 @@ height: 135px;
 left: 444px;
 top: 719px;
 
-font-family: 'Nova Round';
+font-family: "cy", sans-serif;
+font-weight: 600;
 font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 43px;
+font-size: xx-large;
 text-align: center;
 
-color: #000000;
+color: #e3dede;
 
 
 }
@@ -510,14 +494,13 @@ height: 135px;
 left: 306px;
 top: 719px;
 
-font-family: 'Nova Round';
+font-family: "cy", sans-serif;
+font-weight: 600;
 font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 43px;
+font-size: xx-large;
 text-align: center;
 
-color: #000000;
+color: #e3dede;
 }
 
 
@@ -532,14 +515,13 @@ height: 136px;
 left: 582px;
 top: 581px;
 
-font-family: 'Nova Round';
+font-family: "cy", sans-serif;
+font-weight: 600;
 font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 43px;
+font-size: xx-large;
 text-align: center;
 
-color: #000000;
+color: #e3dede;
 
 
 }
@@ -554,14 +536,13 @@ height: 136px;
 left: 720px;
 top: 581px;
 
-font-family: 'Nova Round';
+font-family: "cy", sans-serif;
+font-weight: 600;
 font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 43px;
+font-size: xx-large;
 text-align: center;
 
-color: #000000;
+color: #e3dede;
 
 }
 
@@ -576,36 +557,16 @@ height: 136px;
 left: 444px;
 top: 581px;
 
-font-family: 'Nova Round';
+font-family: "cy", sans-serif;
+font-weight: 600;
 font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 43px;
+font-size: xx-large;
 text-align: center;
 
-color: #000000;
+color: #e3dede;
 }
 
-.HOME{
-  /* HOME */
 
-position: absolute;
-width: 172px;
-height: 45px;
-left: 634px;
-top: 71px;
-
-font-family: 'Nova Round';
-font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 43px;
-text-align: center;
-
-color: #f17d7d;
-
-
-}
 
 
 
