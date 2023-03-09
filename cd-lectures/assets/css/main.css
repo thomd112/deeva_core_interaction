@@ -18,6 +18,14 @@ body {
   margin:70px;
 }
 
+a{
+  color:antiquewhite;
+  text-decoration: none;
+}
+
+
+
+
 /* structure */
 .spacer{
 height: 100vh;
