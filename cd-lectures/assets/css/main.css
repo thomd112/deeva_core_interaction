@@ -7,12 +7,15 @@
 /* type */
 
 body {
-font-family: 'Courier New', Courier, monospace;
-text-align: center;
-font-size: 22px;
-line-height: 1.2;
-background-color: antiquewhite;
-color:black;
+  font-family: "quatro-slab", serif;
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 700;
+  font-style: normal;
+  color: #4C411A;
+  background-color: #A4AA83;
+  margin:70px;
 }
 
 /* structure */
