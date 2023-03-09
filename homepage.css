@@ -52,6 +52,17 @@ text-decoration: none;
 
 }
 
+p{
+  line-height: 1.4;
+  margin-inline-start: 0px;
+  margin-inline-end: 120px;
+  color: rgb(52, 56, 20);
+
+}
+
+
+
+
 
 /* structure */
 .spacer{
