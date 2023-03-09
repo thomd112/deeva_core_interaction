@@ -34,7 +34,7 @@ h2{
 
 .wrap2{
   display: grid;
-  grid-template-columns:3fr 3fr 3fr;
+  grid-template-columns:3fr 3fr 0.01fr;
   grid-template-rows: 2fr;
   grid-auto-rows: 50px;
 }
