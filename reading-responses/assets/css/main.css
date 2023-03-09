@@ -8,22 +8,36 @@
 /* type */
 
 body {
-  font-family: 'Courier New', Courier,;
+  font-family: "quatro-slab", serif;
   text-align: left;
   font-size: 18px;
-  line-height: 1.2;
-  background-color: antiquewhite;
-  color:black;
+  line-height: 1.4;
+  font-weight: 700;
+  font-style: normal;
+  color: #4C411A;
+  background-color: #A4AA83;
+  margin:70px;
+ 
+  
 }
+
+a{
+  color:antiquewhite;
+}
+
+
+
+
+
 
 /* structure */
 .spacer{
 height: 100vh;
-border: 2px solid white;
+border: 2px solid #D8DDB8;
 }
 
 section{
-height: 50vh;
-background: whitesmoke;
-margin: 60px;
+height: 60vh;
+background: #D8DDB8;
+margin: 40px;
 }
