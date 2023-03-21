@@ -1,21 +1,31 @@
 
 @font-face {
-  font-family: 'Unique-Regular.otf';
-  src: url('https://fontesk.com/unique-typeface/') format('otf');
-  font-weight: 600;
-  font-style: normal;
+src: url("https://use.typekit.net/pht0wjo.css") format('otf');
+font-family: "afronaut", sans-serif;
+font-weight: 400;
+font-style: normal;
 }
 
+@font-face {
+  src: url("https://use.typekit.net/pht0wjo.css") format('otf');
+  font-family: "bebas-neue", sans-serif;
+font-weight: 400;
+font-style: normal;
+  }
+
 #variable {
-  font-family: "Unique-Regular.otf";
-  font-size: 20px;
+  font-family: "afronaut";
+  font-size: 50px;
   transition: font-size 0.5s ease-in-out;
   color:blueviolet;
   text-align: center;
 }
 
 #variable:hover {
-  font-family: "Unique-Vf.ttf";
-  font-size: 70px;
+  font-family: "bebas-neue", sans-serif;
+  font-size: 100px;
+  font-weight: 400;
+  font-style: normal;
   color: yellowgreen;
 }
+
