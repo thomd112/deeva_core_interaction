@@ -15,7 +15,22 @@ font-weight: 600;
 font-style: normal;
 }
 
+#container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.alphabet{
+  margin: 20px;
+}
 
+.sound{
+  font-size: 350px;
+}
+
+
+.phrase{
+  font-weight: bold;
+}
 
 a{
   text-decoration: none;
@@ -23,22 +38,22 @@ a{
 
 
 .container{
-  display: grid;
+  display:grid;
   text-align: center;
 }
 
-.A{
+/* .A{ */
   /* A */
-text-decoration: none;
+/* text-decoration: none;
 position: absolute;
 width: 134px;
 height: 135px;
 left: 306px;
-top: 169px;
+top: 169px; */
 
 
 
-
+/* 
 font-family: "cy", sans-serif;
 font-weight: 600;
 font-style: normal;
@@ -48,8 +63,8 @@ text-align: center;
 color: #e3dede;
 
 /* border: 1px solid #000000; */
-text-shadow: 0px 4px 4px rgba(221, 212, 212, 0.25);
-}
+/* text-shadow: 0px 4px 4px rgba(221, 212, 212, 0.25);
+} */ 
 
 
 
