@@ -17,9 +17,9 @@ function processMorse( data ){
 
       newItem.innerHTML = `
       <div class="alphabet">${item.alphabet}</div>
-      <div class="detail">
-        <div class="alphabet">${item.alphabet}</div>
+      <div class="morse code">
         <audio src="morse_code_audios/${item.sound}" controls>
+        <div class="phrase">${item.phrase} </div>
       </div>
       `;
       container.appendChild(newItem); 
