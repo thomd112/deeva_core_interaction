@@ -1,182 +1,182 @@
 [
   {
     "alphabet": "A",
-    "morse code": ".-",
+    "morsecode": ".-",
     "phrase": "a <em>part</em>",
     "sound": "A_morse_code.ogg",
     "id": 1
   },
   {
     "alphabet": "B",
-    "morse code": "-...",
+    "morsecode": "-...",
     "phrase": "bob <strong>is the man</strong>",
     "sound": "B_morse_code.ogg",
     "id": 2
   },
   {
     "alphabet": "C",
-    "morse code": "-.-.",
+    "morsecode": "-.-.",
     "phrase": "co <b><font color=\"#000000\">ca </font></b> co <b><font color=\"#000000\">la </font></b>",
     "sound": "C_morse_code.ogg",
     "id": 3
   },
   {
     "alphabet": "D",
-    "morse code": "-..",
+    "morsecode": "-..",
     "phrase": "dog did it",
     "sound": "D_morse_code.ogg",
     "id": 4
   },
   {
     "alphabet": "E",
-    "morse code": ".",
+    "morsecode": ".",
     "phrase": "eh",
     "sound": "E_morse_code.ogg",
     "id": 5
   },
   {
     "alphabet": "F",
-    "morse code": "..-.",
+    "morsecode": "..-.",
     "phrase": "fetch a fire man",
     "sound": "F_morse_code.ogg",
     "id": 6
   },
   {
     "alphabet": "G",
-    "morse code": "--.",
+    "morsecode": "--.",
     "phrase": "good grav y",
     "sound": "G_morse_code.ogg",
     "id": 7
   },
   {
     "alphabet": "H",
-    "morse code": "....",
+    "morsecode": "....",
     "phrase": "hip pit ty hop",
     "sound": "H_morse_code.ogg",
     "id": 8
   },
   {
     "alphabet": "I",
-    "morse code": "..",
+    "morsecode": "..",
     "phrase": "i bid",
     "sound": "I_morse_code.ogg",
     "id": 9
   },
   {
     "alphabet": "J",
-    "morse code": ".---",
+    "morsecode": ".---",
     "phrase": "in jaws jaws jaws",
     "sound": "J_morse_code.ogg",
     "id": 10
   },
   {
     "alphabet": "K",
-    "morse code": "-.-",
+    "morsecode": "-.-",
     "phrase": "kang a roo",
     "sound": "K_morse_code.ogg",
     "id": 11
   },
   {
     "alphabet": "L",
-    "morse code": ".-..",
+    "morsecode": ".-..",
     "phrase": "los an ge les",
     "sound": "L_morse_code.ogg",
     "id": 12
   },
   {
     "alphabet": "M",
-    "morse code": "−−",
+    "morsecode": "−−",
     "phrase": "mmm mmm",
     "sound": "M_morse_code.ogg",
     "id": 13
   },
   {
     "alphabet": "N",
-    "morse code": "-.",
+    "morsecode": "-.",
     "phrase": "no way",
     "sound": "N_morse_code.ogg",
     "id": 14
   },
   {
     "alphabet": "O",
-    "morse code": "---",
+    "morsecode": "---",
     "phrase": "oh my god",
     "sound": "O_morse_code.ogg",
     "id": 15
   },
   {
     "alphabet": "P",
-    "morse code": ".--.",
+    "morsecode": ".--.",
     "phrase": "a poo py smell",
     "sound": "P_morse_code.ogg",
     "id": 16
   },
   {
     "alphabet": "Q",
-    "morse code": "--.-",
+    "morsecode": "--.-",
     "phrase": "god save the queen",
     "sound": "Q_morse_code.ogg",
     "id": 17
   },
   {
     "alphabet": "R",
-    "morse code": ".-.",
+    "morsecode": ".-.",
     "phrase": "ro ta tion",
     "sound": "R_morse_code.ogg",
     "id": 18
   },
   {
     "alphabet": "S",
-    "morse code": "...",
+    "morsecode": "...",
     "phrase": "si si si",
     "sound": "S_morse_code.ogg",
     "id": 19
   },
   {
     "alphabet": "T",
-    "morse code": "-",
+    "morsecode": "-",
     "phrase": "tall",
     "sound": "T_morse_code.ogg",
     "id": 20
   },
   {
     "alphabet": "U",
-    "morse code": "..-",
+    "morsecode": "..-",
     "phrase": "u ni form",
     "sound": "U_morse_code.ogg",
     "id": 21
   },
   {
     "alphabet": "V",
-    "morse code": "...-",
+    "morsecode": "...-",
     "phrase": "vic to ry thee",
     "sound": "V_morse_code.ogg",
     "id": 22
   },
   {
     "alphabet": "W",
-    "morse code": ".--",
+    "morsecode": ".--",
     "phrase": "the world war",
     "sound": "W_morse_code.ogg",
     "id": 23
   },
   {
     "alphabet": "X",
-    "morse code": "-..-",
+    "morsecode": "-..-",
     "phrase": "x marks the spot",
     "sound": "X_morse_code.ogg",
     "id": 24
   },
   {
     "alphabet": "Y",
-    "morse code": "-.--",
+    "morsecode": "-.--",
     "phrase": "you're a cool dude",
     "sound": "Y_morse_code.ogg",
     "id": 25
   },
   {
     "alphabet": "Z",
-    "morse code": "--..",
+    "morsecode": "--..",
     "phrase": "zinc zoo kee per",
     "sound": "Z_morse_code.ogg",
     "id": 26

@@ -11,25 +11,29 @@ function processMorse( data ){
 
   data.forEach( function(item, index){
     
-    
+    let buttonb=document.getElementById("B");
+    buttonb.addEventListener('click', function(){
+
+      
+
+
   let newItem = document.createElement("div");
   newItem.classList.add("icon");
 
       newItem.innerHTML = `
       <div class="alphabet">${item.alphabet}</div>
-      <div class="morse code">
+      <div class="morse code">${item.morsecode}</div>
         <audio src="morse_code_audios/${item.sound}" controls>
-        <div class="phrase">${item.phrase} </div>
+        
       </div>
+      <div class="phrase"><p>${item.phrase}</p> </div>
       `;
       container.appendChild(newItem); 
-      newItem.addEventListener('click', function(){
-        newItem.item.alphabet.toggle("active");
+      // newItem.item.alphabet.toggle("active");
       });
       
-      
   });
-
+  
 
 
 
