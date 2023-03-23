@@ -23,6 +23,7 @@ function processMorse( data ){
       newItem.innerHTML = `
       <div class="alphabet">${item.alphabet}</div>
       <div class="morse code">${item.morsecode}</div>
+      <div class="phrase"><p>${item.phrase}</p> </div>
         <audio src="morse_code_audios/${item.sound}" controls>
         
       </div>
