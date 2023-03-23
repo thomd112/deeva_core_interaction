@@ -9,7 +9,7 @@
   {
     "alphabet": "B",
     "morsecode": "-...",
-    "phrase": "bob <strong>is the man</strong>",
+    "phrase": "<em>bob</em> <strong>is the man</strong>",
     "sound": "B_morse_code.ogg",
     "id": 2
   },
