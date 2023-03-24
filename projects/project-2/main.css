@@ -108,12 +108,12 @@ a:link{
  */
 
 ::-moz-selection {
-  background: #b3d4fc;
+  background: #e3dede;
   text-shadow: none;
 }
 
 ::selection {
-  background: #b3d4fc;
+  background:#e3dede;
   text-shadow: none;
 }
 
