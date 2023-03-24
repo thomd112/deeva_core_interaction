@@ -53,6 +53,14 @@ div.a {
   font-size: 30px;
 }
 
+.icon{
+  display: none;
+}
+
+.icon.visible{
+  display: block;
+}
+
 
 #container{
   display: grid;
