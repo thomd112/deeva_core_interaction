@@ -16,7 +16,7 @@
   {
     "alphabet": "C",
     "morsecode": "-.-.",
-    "phrase": "co <b><font color=\"#333\">ca </font></b> co <b><font color=\"#000000\">la </font></b>",
+    "phrase": "<em>co</em> ca <em>co</em> la",
     "sound": "C_morse_code.ogg",
     "id": 3
   },
