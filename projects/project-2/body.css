@@ -24,7 +24,10 @@ p{
 a{
   color: #ccc;
   text-align: left;
- 
+}
+
+a:hover {
+  color: #b3d4fc;
 }
 
 .containers{
