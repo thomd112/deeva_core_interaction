@@ -65,6 +65,9 @@ a:link{
   text-align: center;
 }
 
+a:hover {
+  color: #b3d4fc;
+}
 
 .grid{
   display: grid;
