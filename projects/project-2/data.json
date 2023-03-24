@@ -114,14 +114,14 @@
   {
     "alphabet": "Q",
     "morsecode": "--.-",
-    "phrase": "god save the queen",
+    "phrase": "<em>god</em> <em>save</em>  the <em>queen</em>",
     "sound": "Q_morse_code.ogg",
     "id": 17
   },
   {
     "alphabet": "R",
     "morsecode": ".-.",
-    "phrase": "ro ta tion",
+    "phrase": "ro <em>ta</em> tion",
     "sound": "R_morse_code.ogg",
     "id": 18
   },
@@ -135,49 +135,49 @@
   {
     "alphabet": "T",
     "morsecode": "-",
-    "phrase": "tall",
+    "phrase": "<em>tall</em>",
     "sound": "T_morse_code.ogg",
     "id": 20
   },
   {
     "alphabet": "U",
     "morsecode": "..-",
-    "phrase": "u ni form",
+    "phrase": "u ni <em>form</em>",
     "sound": "U_morse_code.ogg",
     "id": 21
   },
   {
     "alphabet": "V",
     "morsecode": "...-",
-    "phrase": "vic to ry thee",
+    "phrase": "vic to ry <em>thee</em>",
     "sound": "V_morse_code.ogg",
     "id": 22
   },
   {
     "alphabet": "W",
     "morsecode": ".--",
-    "phrase": "the world war",
+    "phrase": "the <em>world</em> <em>war</em>",
     "sound": "W_morse_code.ogg",
     "id": 23
   },
   {
     "alphabet": "X",
     "morsecode": "-..-",
-    "phrase": "x marks the spot",
+    "phrase": "<em>x</em> marks the <em>spot</em>",
     "sound": "X_morse_code.ogg",
     "id": 24
   },
   {
     "alphabet": "Y",
     "morsecode": "-.--",
-    "phrase": "you're a cool dude",
+    "phrase": "<em>you're</em> a <em>cool</em> <em>dude</em> ",
     "sound": "Y_morse_code.ogg",
     "id": 25
   },
   {
     "alphabet": "Z",
     "morsecode": "--..",
-    "phrase": "zinc zoo kee per",
+    "phrase": "<em>zinc</em> <em>zoo</em>  kee per",
     "sound": "Z_morse_code.ogg",
     "id": 26
   }
