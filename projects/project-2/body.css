@@ -32,7 +32,7 @@ a:hover {
 
 .containers{
   display: grid;
-  grid-template-columns: repeat(2,4fr);
+  grid-template-columns: repeat(1,4fr);
   margin: none;
   
 }
@@ -92,7 +92,7 @@ a{
 
 
 .container{
-  display:grid;
+  /* display:grid; */
   text-align: center;
 }
 

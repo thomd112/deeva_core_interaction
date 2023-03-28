@@ -26,7 +26,7 @@ font-family: "cy", sans-serif;
 font-weight: 600;
 font-style: normal;
 color: #b3d4fc;
-padding-top: 10%;
+/* padding-top: %; */
 /* padding-bottom: 10%; */
 
 }
@@ -46,15 +46,20 @@ a:hover {
   color: #b3d4fc;
 }
   
-
+h1{
+  font-size:xx-large;
+}
 
 .container{
   display: grid;
-  text-align: center;
+  grid-template-columns: repeat(6,1fr) ;
+
 }
 
 p{
   text-align: center;
+ 
+  font-size: 25px;
 }
 
 
