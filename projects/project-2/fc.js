@@ -12,7 +12,7 @@ fetch('data.json')
 
 
 // Store the flashcard data in an array of objects
-const flashcards = [    { question: "A", answer: ".-" },    { question: "B", answer: "Blue whale" },    { question: "C", answer: "Vatican City" },    { question: "D", answer: "Mount Everest" }, { question: "E", answer: "Yen" },{ question: "E", answer: "Yen" },{ question: "E", answer: "Yen" },{ question: "E", answer: "Yen" },{ question: "E", answer: "Yen" },{ question: "E", answer: "Yen" },{ question: "E", answer: "Yen" },{ question: "E", answer: "Ywden" },{ question: "E", answer: "Yennc" },{ question: "E", answer: "Ysxen" },{ question: "E", answer: "Yesn" },{ question: "E", answer: "Ysen" },{ question: "E", answer: "c" },{ question: "E", answer: "Yecn" }          ];
+const flashcards = [    { question: "A", answer: ".-" },    { question: "B", answer: "-..." },    { question: "C", answer: "-.-." },    { question: "D", answer: "-.." }, { question: "E", answer: "." },{ question: "F", answer: "..-." },{ question: "G", answer: "--." },{ question: "H", answer: "...." },{ question: "I", answer: ".." },{ question: "J", answer: ".---" },{ question: "K", answer: "-.-" },{ question: "L", answer: ".-.." },{ question: "M", answer: "−−" },{ question: "N", answer: "-." },{ question: "O", answer: "---" },{ question: "P", answer: ".--." },{ question: "Q", answer: "--.-" },{ question: "R", answer: ".-." }   ,{ question: "S", answer: "..." }  ,{ question: "T", answer: "-" }  ,{ question: "U", answer: "..-" } ,{ question: "V", answer: "...-" }   ,{ question: "W", answer: ".--" } ,{ question: "X", answer: "-..-" },{ question: "Y", answer: "-.--" },{ question: "Z", answer: "--.." }      ];
 
 // Get the HTML elements
 const flashcardElement = document.getElementById("flashcard");
