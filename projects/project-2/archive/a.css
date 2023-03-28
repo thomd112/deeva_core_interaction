@@ -33,6 +33,7 @@ color: #b3d4fc;
 
 a{
   text-decoration: none;
+  cursor: pointer;
 
 
 }
@@ -44,6 +45,7 @@ a{
 
 a:hover {
   color: #b3d4fc;
+  cursor: pointer;
 }
   
 h1{
@@ -255,6 +257,7 @@ textarea {
   a,
   a:visited {
     text-decoration: underline;
+    cursor: pointer;
   }
 
   a[href]::after {

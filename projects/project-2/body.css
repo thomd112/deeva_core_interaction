@@ -28,6 +28,7 @@ a{
 
 a:hover {
   color: #b3d4fc;
+  cursor: pointer;
 }
 
 .containers{
@@ -825,6 +826,7 @@ textarea {
   a,
   a:visited {
     text-decoration: underline;
+    cursor: pointer;
   }
 
   a[href]::after {
