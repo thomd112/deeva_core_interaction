@@ -66,6 +66,12 @@ section{
 h2{
   font-weight: bold;
 }
+h1 + p, h2 + p{
+  text-indent: 0;
+}
+h2{
+  margin-top: var(--pad);
+}
 
 h1, h2{
   font-family: 'Righteous', cursive;
@@ -73,7 +79,7 @@ font-size: 2rem;
 line-height: 1.4;
 }
 p{
-  text-indent: 5rem;
+  text-indent: 0rem;
   line-height: 1.4;
   hyphens: auto;
   font-feature-settings: "onum" on;
