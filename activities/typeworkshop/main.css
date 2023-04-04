@@ -14,64 +14,26 @@
 /*static font instances*/
 
 /*
-@font-face {
-    font-family: 'Quiosco';
-    font-weight: 400;
-    font-style: normal;
-    src: url(fonts/quiosco/Quiosco-Regular.woff2) format("woff2"),url(fonts/quiosco/Quiosco-Regular.woff) format("woff"),url(fonts/quiosco/Quiosco-Regular.eot?#iefix) format("embedded-opentype")
-}
 
-@font-face {
-    font-family: 'Quiosco';
-    font-weight: 400;
-    font-style: italic;
-    src: url(fonts/quiosco/Quiosco-Italic.woff2) format("woff2"),url(fonts/quiosco/Quiosco-Italic.woff) format("woff"),url(fonts/quiosco/Quiosco-Italic.eot?#iefix) format("embedded-opentype")
-}*/
-/*@font-face {
-    font-family: 'Quiosco';
-    font-weight: 700;
-    font-style: normal;
-    src: url(fonts/quiosco/Quiosco-Bold.woff2) format("woff2"),url(fonts/quiosco/Quiosco-Bold.woff) format("woff"),url(fonts/quiosco/Quiosco-Bold.eot?#iefix) format("embedded-opentype")
-}
 
-@font-face {
-    font-family: 'Quiosco';
-    font-weight: 700;
-    font-style: italic;
-    src: url(fonts/quiosco/Quiosco-BoldItalic.woff2) format("woff2"),url(fonts/quiosco/Quiosco-BoldItalic.woff) format("woff"),url(fonts/quiosco/Quiosco-BoldItalic.eot?#iefix) format("embedded-opentype")
-}
-*/
-
-@font-face {
-  font-family: 'Quiosco Display';
-  font-weight: 400;
-  font-style: normal;
-  src: url(fonts/quiosco/QuioscoDisplay-Regular.woff2) format("woff2"),url(fonts/quiosco/QuioscoDisplay-Regular.woff) format("woff"),url(fonts/quiosco/QuioscoDisplay-Regular.eot?#iefix) format("embedded-opentype")
-}
-
-@font-face {
-  font-family: 'Quiosco Display';
-  font-weight: 400;
-  font-style: italic;
-  src: url(fonts/quiosco/QuioscoDisplay-Italic.woff2) format("woff2"),url(fonts/quiosco/QuioscoDisplay-Italic.woff) format("woff"),url(fonts/quiosco/QuioscoDisplay-Italic.eot?#iefix) format("embedded-opentype")
-}
 
 
 
 /*variable font*/
 
 @font-face {
-  font-family: 'Quiosco VF';
+  font-family: 'Ubuntu', sans-serif;
   font-weight: 400 700;
-  src: url(fonts/quiosco-vf/QuioscoRomanVF.woff2) format("woff2-variations");
+  src: url(https://fonts.googleapis.com);
 }
 
 @font-face {
-  font-family: 'Quiosco VF';
+  font-family: 'Ubuntu', sans-serif;
   font-weight: 400 700;
   font-style: italic;
-  src: url(fonts/quiosco-vf/QuioscoItalicVF.woff2) format("woff2-variations");
+  src: url(https://fonts.googleapis.com);
 }
+
 
 
 :root{
@@ -88,7 +50,7 @@
 
 body{
   background: #617143;
-  font-family: 'Quiosco VF';
+  font-family: 'Righteous', cursive;
   font-variation-settings: 'wght' var(--wght), 'GRAD' var(--GRAD);
 }
 
@@ -106,12 +68,12 @@ h2{
 }
 
 h1, h2{
-font-family: 'Quiosco Display';
+  font-family: 'Righteous', cursive;
 font-size: 2rem;
-line-height: 1.0;
+line-height: 1.4;
 }
 p{
-  text-indent: 3rem;
+  text-indent: 5rem;
   line-height: 1.4;
   hyphens: auto;
   font-feature-settings: "onum" on;
