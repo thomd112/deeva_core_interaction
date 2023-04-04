@@ -85,12 +85,12 @@ h2{
   margin-top: var(--pad);
 }
 blockquote{
-  font-family: 'Quiosco Display';
-  font-size: 37px;
+  /* font-family: 'Ubuntu', sans-serif; */
+  font-size: 35px;
   margin-top: var(--pad);
   letter-spacing: -0.01em;
-  line-height: 1.1;
-  text-indent: -0.4em;
+  line-height: 1.4;
+  text-indent: -0.1em;
 }
 
 ul{
