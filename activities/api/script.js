@@ -1,15 +1,14 @@
 let news;
 
 function getNews(){
-    fetch('https://apilist.fun/api/news')
-    .then(response => response.json())
-    .then(data => {
-      console.log(data);
-      factList = data; // store data
-      displayFact(0);
+    fetch('https://newsapi.org/v2/everything?')
+    var req = new Request(url);
+
+fetch(req)
+    .then(function(response) {
+        console.log(response.json());
     })
-    .catch(error => console.log(error));
-}
+  }
 
 function displayFact(factIndex){
   let fact = factList[factIndex];
