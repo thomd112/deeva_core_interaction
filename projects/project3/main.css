@@ -1,0 +1,31 @@
+
+
+.M {
+    
+
+position:relative;
+/* width:1280px;
+height:832px; */
+
+background:white;
+mix-blend-mode:color-dodge;
+}
+
+.Community{
+
+
+position: relative;
+
+
+font-family: 'Hammersmith One';
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+line-height: 112px;
+text-align: center;
+
+color: #00BD2A;
+}
+
+
+
