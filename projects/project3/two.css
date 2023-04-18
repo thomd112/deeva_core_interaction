@@ -1,6 +1,10 @@
+body{
+    background-color: white;
+}
+
 .Brooklyn{
 
-position: absolute;
+position: relative;
 left: 45.16%;
 right: 27.34%;
 top: 65.5%;
@@ -16,6 +20,7 @@ color: #C2185B;
 
 
 }
+
 .StatenIsland{
 
 position: absolute;
