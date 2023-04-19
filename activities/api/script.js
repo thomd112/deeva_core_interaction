@@ -1,26 +1,27 @@
 let news;
 
 function getNews(){
-    fetch('https://newsapi.org/v2/everything?')
-    var req = new Request(url);
+  fetch('https://newsapi.org/v2/everything?q=applen&apiKey=e52b57cb11c14b0cb144d97976c8fa19')
+  .then(response => response.json())
+  .then(data => {
+    console.log(data);
+  })
+  .catch(error => console.log(error));
+}
 
-fetch(req)
-    .then(function(response) {
-        console.log(response.json());
-    })
-  }
-
-function displayFact(factIndex){
-  let fact = factList[factIndex];
-  let text = fact.text;
-  document.getElementById('fact').innerHTML = text;
-}  
+// function displayFact(factIndex){
+//   let fact = factList[factIndex];
+//   let text = fact.text;
+//   document.getElementById('fact').innerHTML = text;
+// }  
 
 window.onload = function(e){ 
 
     let factCount = 0;
 
-    getFact();
+    getNews();
+
+
 
     let refreshButton = document.getElementById('refresh');
     refreshButton.addEventListener('click', function(){
