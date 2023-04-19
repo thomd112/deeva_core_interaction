@@ -9,11 +9,7 @@ function getNews(){
   .catch(error => console.log(error));
 }
 
-// function displayFact(factIndex){
-//   let fact = factList[factIndex];
-//   let text = fact.text;
-//   document.getElementById('fact').innerHTML = text;
-// }  
+
 
 window.onload = function(e){ 
 
@@ -22,18 +18,45 @@ window.onload = function(e){
     getNews();
 
 
+	// Go through each item in the object
+	data.forEach(squirrel => {
+		if (squirrel.primary_fur_color == 'Gray') grayCount = grayCount + 1 // Increment the counter
+		// if (squirrel.primary_fur_color == 'Gray') grayCount++ // Shorthand for incrementing
+		else if (squirrel.primary_fur_color == 'Cinnamon') cinnamonCount = cinnamonCount + 1
+		else if (squirrel.primary_fur_color == 'Black') blackCount = blackCount + 1
+		else undefinedCount = undefinedCount + 1
+	})
 
-    let refreshButton = document.getElementById('refresh');
-    refreshButton.addEventListener('click', function(){
+	// Some telemetry!
+	console.log('Gray: ' + grayCount)
+	console.log('Cinnamon: ' + cinnamonCount)
+	console.log('Black: ' + blackCount)
+	console.log('Undefined: ' + undefinedCount)
 
-     if(factCount < 4){        
-        factCount ++; // increment fact index until 5
-        displayFact(factCount);
-      }else{
-        factCount = 0; // reset fact index
-        getFact();
-      }  
-       
-    });
+	// Add CSS variables (custom properties) on the graph, with the counts
+	graph.style.setProperty('--gray', grayCount)
+	graph.style.setProperty('--cinnamon', cinnamonCount)
+	graph.style.setProperty('--black', blackCount)
+	graph.style.setProperty('--undefined', undefinedCount)
+}
 
-};
+// Watch for any change on the dropdown
+dropdown.oninput = () => {
+	// Filter the locally-copied data
+	const localDataAm = localData.filter(squirrel => squirrel.shift == 'AM')
+	const localDataPm = localData.filter(squirrel => squirrel.shift == 'PM')
+
+	// Parse either set depending on the dropdown value
+	if (dropdown.value == 'Morning') parseData(localDataAm)
+	else if (dropdown.value == 'Afternoon') parseData(localDataPm)
+	else parseData(localData) // Send the whole, unfiltered dataset
+}
+
+
+// Go get the data!
+fetch(url + '?$limit=50000') // Appends a higher limit; the default is only 1000
+	.then(response => response.json())
+	.then(data => {
+			localData = data // Save the data to our local variable, so we don’t have to re-request
+			parseData(localData) // And parse it!
+		})

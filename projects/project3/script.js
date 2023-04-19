@@ -2,7 +2,7 @@
 const jsonData = {
     "category1": ["item1", "item2", "item3"],
     "category2": ["item4", "item5", "item6"],
-    "category3": ["item7", "item8", "item9"]
+    "borough": ["item7", "item8", "item9"]
   };
   
   // Parse the JSON data
