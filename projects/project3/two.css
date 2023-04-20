@@ -1,80 +1,15 @@
 body{
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  li {
-    padding: 5px;
-    border: 1px solid #ccc;
-    margin-bottom: 5px;
-  }
- 
-  .nop{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    padding-top: 8rem;
-  }
-
-  .accordion {
-    border: 1px solid #ddd;
-    border-radius: 5px;
-  }
-  
-  .accordion-item {
-    border-bottom: 1px solid #ddd;
-  }
-  
-  .accordion-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
-    padding: 1rem;
-    background-color: #f5f5f5;
-  }
-  
-  .accordion-content {
-    padding: 1rem;
-    display: none;
-  }
-  
-  .accordion-header.active {
-    background-color: #eee;
-  }
-  
-  .accordion-header.active i {
-    transform: rotate(180deg);
-  }
-  
-  .fa-chevron-down {
-    transition: transform 0.2s ease-in-out;
-  }
-  
 
 
 
 
-
- /* Style the clickable sentence */
-#click-me {
-    cursor: pointer;
-    color: blue;
-    text-decoration: underline;
-  }
-  
-  /* Style the hidden sentence */
-  #hidden-sentence {
-    font-style: italic;
-    color: aqua;
-  }
   
 
 

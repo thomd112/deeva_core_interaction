@@ -1,28 +1,6 @@
 [
-    {
-      "unit": "Recreation",
-      "date_and_time": "2018-04-12T18:30:00.000",
-      "borough": "Manhattan",
-      "locationtype": "Recreation Center",
-      "location": "Alfred E. Smith Recreation Center",
-      "event_name": "Battle of the Paddles Special Event",
-      "event_type": "Tournament/Competition",
-      "category": "Sport",
-      "audience": "Adults;#Seniors;#Young Adult",
-      "attendance": "60"
-    },
-    {
-      "unit": "Recreation",
-      "date_and_time": "2018-01-20T00:00:00.000",
-      "borough": "Manhattan",
-      "locationtype": "Recreation Center",
-      "location": "Alfred E. Smith Recreation Center",
-      "event_name": "Event New Year Ultimate Fitness Frenzy",
-      "event_type": "Local Event",
-      "category": "Fitness",
-      "audience": "Teens;#Young Adult;#Adults;#Seniors",
-      "attendance": "50"
-    },
+   
+   
     {
       "unit": "Recreation",
       "date_and_time": "2018-06-11T10:00:00.000",
@@ -50,19 +28,7 @@
       "audience": "Children;#Young Adult;#General Public",
       "attendance": "325"
     },
-    {
-      "unit": "Recreation",
-      "date_and_time": "2019-06-08T11:00:00.000",
-      "borough": "Manhattan",
-      "locationtype": "Recreation Center",
-      "location": "Pelham Fritz Recreation Center",
-      "event_name": "Live, Laugh, Love Fitness Expo",
-      "event_type": "Agency Produced Event",
-      "category": "Fitness",
-      "classification": "Fitness",
-      "audience": "General Public;#Adults;#Young Adult;#Seniors",
-      "attendance": "166"
-    },
+    
     {
       "unit": "Recreation",
       "date_and_time": "2019-06-08T20:30:00.000",
@@ -103,18 +69,7 @@
       "audience": "General Public;#Teens;#Adults",
       "attendance": "290"
     },
-    {
-      "unit": "Recreation",
-      "date_and_time": "2019-06-05T18:30:00.000",
-      "borough": "Manhattan",
-      "locationtype": "Recreation Center",
-      "location": "Recreation Center 54",
-      "event_name": "Daughter and Father Cotillion",
-      "event_type": "Agency Produced Event",
-      "category": "Family Festival",
-      "audience": "Children;#Young Adult;#Teens;#Adults",
-      "attendance": "48"
-    },
+ 
     {
       "unit": "Recreation",
       "group_name_partner": "Council Member Rosenthal",
@@ -143,20 +98,7 @@
       "audience": "General Public",
       "attendance": "350"
     },
-    {
-      "unit": "Urban Park Rangers",
-      "group_name_partner": "National Park Service",
-      "date_and_time": "2019-06-12T10:00:00.000",
-      "borough": "Brooklyn",
-      "locationtype": "Park",
-      "location": "Canarsie Park",
-      "event_name": "Seining",
-      "event_type": "Agency Produced Event",
-      "category": "Nature",
-      "classification": "Aquatics",
-      "audience": "Adults",
-      "attendance": "10"
-    },
+
     {
       "unit": "Recreation",
       "date_and_time": "2019-06-11T11:00:00.000",
@@ -196,18 +138,7 @@
       "audience": "General Public",
       "attendance": "85"
     },
-    {
-      "unit": "Recreation",
-      "date_and_time": "2019-05-18T12:30:00.000",
-      "borough": "Manhattan",
-      "locationtype": "Recreation Center",
-      "location": "Jackie Robinson Recreation Center",
-      "event_name": "Self-Care for Mothers and Families",
-      "event_type": "Agency Produced Event",
-      "category": "Family Festival",
-      "audience": "General Public",
-      "attendance": "85"
-    },
+  
     {
       "unit": "Recreation",
       "group_name_partner": "Jazz Foundation",
@@ -274,44 +205,8 @@
       "audience": "Children;#Teens",
       "attendance": "23"
     },
-    {
-      "unit": "Recreation",
-      "date_and_time": "2019-05-11T12:00:00.000",
-      "borough": "Manhattan",
-      "locationtype": "Recreation Center",
-      "location": "Pelham Fritz Recreation Center",
-      "event_name": "Sports Spectacular",
-      "event_type": "Agency Produced Event",
-      "category": "Sport",
-      "audience": "General Public",
-      "attendance": "10"
-    },
-    {
-      "unit": "Recreation",
-      "date_and_time": "2019-05-11T12:30:00.000",
-      "borough": "Manhattan",
-      "locationtype": "Recreation Center",
-      "location": "Chelsea Recreation Center",
-      "event_name": "She Got Game",
-      "event_type": "Agency Produced Event",
-      "category": "Sport",
-      "audience": "Adults;#Teens;#Seniors;#General Public",
-      "attendance": "6"
-    },
-    {
-      "unit": "Recreation",
-      "group_name_partner": "Jazz Foundation",
-      "date_and_time": "2019-05-09T18:00:00.000",
-      "borough": "Manhattan",
-      "locationtype": "Recreation Center",
-      "location": "Pelham Fritz Recreation Center",
-      "event_name": "Jazz Concert",
-      "event_type": "Agency Produced Event",
-      "category": "Arts/Culture",
-      "classification": "AC&F",
-      "audience": "General Public",
-      "attendance": "70"
-    },
+    
+  
     {
       "unit": "Recreation",
       "group_name_partner": "Harlem Renaissance Orchestra, Harlem Swing Dance Society",
@@ -326,19 +221,7 @@
       "audience": "General Public",
       "attendance": "445"
     },
-    {
-      "unit": "Recreation",
-      "date_and_time": "2019-05-02T18:00:00.000",
-      "borough": "Manhattan",
-      "locationtype": "Recreation Center",
-      "location": "Hansborough Recreation Center",
-      "event_name": "Shape-Up: Silent Disco",
-      "event_type": "Agency Produced Event",
-      "category": "Fitness",
-      "classification": "Dance",
-      "audience": "General Public",
-      "attendance": "185"
-    },
+    
     {
       "unit": "Recreation",
       "group_name_partner": "Bike NYC",
@@ -366,18 +249,7 @@
       "audience": "General Public",
       "attendance": "75"
     },
-    {
-      "unit": "Recreation",
-      "date_and_time": "2019-05-04T21:00:00.000",
-      "borough": "Manhattan",
-      "locationtype": "Recreation Center",
-      "location": "Thomas Jefferson Recreation Center",
-      "event_name": "Table Tennis Challenge",
-      "event_type": "Tournament/Competition",
-      "category": "Sport",
-      "audience": "General Public",
-      "attendance": "12"
-    },
+  
     {
       "unit": "Recreation",
       "date_and_time": "2019-05-10T18:00:00.000",
@@ -390,34 +262,8 @@
       "audience": "General Public",
       "attendance": "21"
     },
-    {
-      "unit": "Recreation",
-      "group_name_partner": "Jazz Foundation",
-      "date_and_time": "2019-05-02T18:00:00.000",
-      "borough": "Manhattan",
-      "locationtype": "Recreation Center",
-      "location": "Pelham Fritz Recreation Center",
-      "event_name": "Jazz Concert",
-      "event_type": "Agency Produced Event",
-      "category": "Arts/Culture",
-      "classification": "AC&F",
-      "audience": "General Public",
-      "attendance": "65"
-    },
-    {
-      "unit": "Recreation",
-      "group_name_partner": "Jazz Foundation",
-      "date_and_time": "2019-04-27T13:00:00.000",
-      "borough": "Manhattan",
-      "locationtype": "Recreation Center",
-      "location": "Jackie Robinson Recreation Center",
-      "event_name": "Make Your Mark: Character Design Workshop",
-      "event_type": "Agency Produced Event",
-      "category": "Arts/Culture",
-      "classification": "AC&F",
-      "audience": "General Public",
-      "attendance": "4"
-    },
+   
+   
     {
       "unit": "Recreation",
       "date_and_time": "2019-04-26T18:00:00.000",
@@ -430,34 +276,8 @@
       "audience": "General Public",
       "attendance": "12"
     },
-    {
-      "unit": "Recreation",
-      "group_name_partner": "Strictly Tango",
-      "date_and_time": "2019-05-01T19:00:00.000",
-      "borough": "Manhattan",
-      "locationtype": "Recreation Center",
-      "location": "Chelsea Recreation Center",
-      "event_name": "Strictly Tango Series",
-      "event_type": "Agency Produced Event",
-      "category": "Arts/Culture",
-      "classification": "Dance",
-      "audience": "General Public",
-      "attendance": "29"
-    },
-    {
-      "unit": "Recreation",
-      "group_name_partner": "Jazz Foundation",
-      "date_and_time": "2019-05-03T18:00:00.000",
-      "borough": "Manhattan",
-      "locationtype": "Recreation Center",
-      "location": "Hansborough Recreation Center",
-      "event_name": "Jazz Concert",
-      "event_type": "Agency Produced Event",
-      "category": "Arts/Culture",
-      "classification": "AC&F",
-      "audience": "General Public",
-      "attendance": "69"
-    },
+ 
+    
     {
       "unit": "Recreation",
       "date_and_time": "2018-06-16T20:00:00.000",
@@ -471,99 +291,10 @@
       "audience": "General Public",
       "attendance": "275"
     },
-    {
-      "unit": "Aquatics",
-      "date_and_time": "2019-04-28T09:00:00.000",
-      "borough": "Queens",
-      "locationtype": "Recreation Center",
-      "location": "Flushing Meadows Corona Park Pool & Rink",
-      "event_name": "High Point 3",
-      "event_type": "Tournament/Competition",
-      "category": "Sport",
-      "classification": "Tier 1",
-      "audience": "Children;#General Public",
-      "attendance": "1288"
-    },
-    {
-      "unit": "Aquatics",
-      "date_and_time": "2019-03-24T09:00:00.000",
-      "borough": "Queens",
-      "locationtype": "Recreation Center",
-      "location": "Flushing Meadows Corona Park Pool & Rink",
-      "event_name": "High Point  2",
-      "event_type": "Tournament/Competition",
-      "category": "Sport",
-      "classification": "Tier 1",
-      "audience": "Children;#General Public",
-      "attendance": "1047"
-    },
-    {
-      "unit": "Aquatics",
-      "date_and_time": "2018-12-02T09:00:00.000",
-      "borough": "Queens",
-      "locationtype": "Recreation Center",
-      "location": "Flushing Meadows Corona Park Pool & Rink",
-      "event_name": "High Point 1",
-      "event_type": "Tournament/Competition",
-      "category": "Sport",
-      "classification": "Tier 1",
-      "audience": "Children;#General Public",
-      "attendance": "1255"
-    },
-    {
-      "unit": "Recreation",
-      "group_name_partner": "Queensboro Dance Festival",
-      "date_and_time": "2019-06-08T18:00:00.000",
-      "borough": "Queens",
-      "locationtype": "Park",
-      "location": "Beach 17th Street",
-      "event_name": "Queensboro Dance Festival",
-      "event_type": "Open House",
-      "category": "Arts/Culture",
-      "classification": "AC&F",
-      "audience": "General Public",
-      "attendance": "250"
-    },
-    {
-      "unit": "Aquatics",
-      "date_and_time": "2019-05-05T09:45:00.000",
-      "borough": "Queens",
-      "locationtype": "Recreation Center",
-      "location": "Flushing Meadows Corona Park Pool & Rink",
-      "event_name": "Masters Meet",
-      "event_type": "Tournament/Competition",
-      "category": "Sport",
-      "classification": "Tier 1",
-      "audience": "Young Adult;#Adults;#Seniors",
-      "attendance": "254"
-    },
-    {
-      "unit": "Aquatics",
-      "date_and_time": "2019-05-19T10:00:00.000",
-      "borough": "Queens",
-      "locationtype": "Recreation Center",
-      "location": "Flushing Meadows Corona Park Pool & Rink",
-      "event_name": "Borough Cup Championship",
-      "event_type": "Tournament/Competition",
-      "category": "Sport",
-      "classification": "Tier 1",
-      "audience": "Children;#General Public",
-      "attendance": "928"
-    },
-    {
-      "unit": "Aquatics",
-      "group_name_partner": "Brooklyn Recreation",
-      "date_and_time": "2019-05-10T09:00:00.000",
-      "borough": "Brooklyn",
-      "locationtype": "Recreation Center",
-      "location": "Brownsville Recreation Center",
-      "event_name": "Senior Games",
-      "event_type": "Tournament/Competition",
-      "category": "Sport",
-      "classification": "Tier 1",
-      "audience": "Seniors",
-      "attendance": "102"
-    },
+   
+
+    
+    
     {
       "unit": "Recreation",
       "group_name_partner": "Council Member Rory Lancman, Briarwood Community Association and Archbishop Molloy High School",
@@ -578,34 +309,8 @@
       "audience": "General Public",
       "attendance": "1000"
     },
-    {
-      "unit": "Aquatics",
-      "group_name_partner": "Bronx Recreation",
-      "date_and_time": "2019-05-31T10:00:00.000",
-      "borough": "Bronx",
-      "locationtype": "Recreation Center",
-      "location": "St. Mary's Recreation Center",
-      "event_name": "Senior Swim Olympics",
-      "event_type": "Tournament/Competition",
-      "category": "Sport",
-      "classification": "Aquatics",
-      "audience": "Seniors",
-      "attendance": "116"
-    },
-    {
-      "unit": "Recreation",
-      "group_name_partner": "Council Member Daneek Miller",
-      "date_and_time": "2019-06-06T12:00:00.000",
-      "borough": "Queens",
-      "locationtype": "Playground",
-      "location": "Skating Day at Daniel O’Connell",
-      "event_name": "Skating Day at Daniel O’Connell",
-      "event_type": "Local Event",
-      "category": "Family Festival",
-      "classification": "Play",
-      "audience": "General Public",
-      "attendance": "200"
-    },
+    
+   
     {
       "unit": "Recreation",
       "date_and_time": "2018-06-14T20:00:00.000",
@@ -743,17 +448,7 @@
       "audience": "General Public",
       "attendance": "130"
     },
-    {
-      "unit": "Urban Park Rangers",
-      "date_and_time": "2019-06-07T11:00:00.000",
-      "borough": "Bronx",
-      "locationtype": "Playground",
-      "location": "Saw Mill Playground",
-      "event_type": "Agency Produced Event",
-      "category": "Nature",
-      "audience": "Children",
-      "attendance": "30"
-    },
+    
     {
       "unit": "Recreation",
       "group_name_partner": "MOCA Cinema",
@@ -768,19 +463,7 @@
       "audience": "General Public",
       "attendance": "227"
     },
-    {
-      "unit": "Recreation",
-      "date_and_time": "2019-06-14T16:00:00.000",
-      "borough": "Manhattan",
-      "locationtype": "Recreation Center",
-      "location": "J. Hood Wright Recreation Center",
-      "event_name": "Father's Day Game Night",
-      "event_type": "Local Event",
-      "category": "Sport",
-      "classification": "Play",
-      "audience": "Young Adult;#Adults;#Seniors",
-      "attendance": "20"
-    },
+   
     {
       "unit": "Recreation",
       "date_and_time": "2019-06-14T20:00:00.000",
@@ -794,19 +477,7 @@
       "audience": "General Public",
       "attendance": "50"
     },
-    {
-      "unit": "Recreation",
-      "date_and_time": "2019-06-08T09:00:00.000",
-      "borough": "Queens",
-      "locationtype": "Park",
-      "location": "Roy Wilkins Park",
-      "event_name": "Queens Recreation Pickleball Tournament",
-      "event_type": "Tournament/Competition",
-      "category": "Sport",
-      "classification": "Tier 3",
-      "audience": "Seniors;#Adults",
-      "attendance": "100"
-    },
+  
     {
       "unit": "Recreation",
       "date_and_time": "2019-06-15T20:00:00.000",
@@ -886,20 +557,7 @@
       "audience": "Young Adult;#Adults;#Teens;#General Public;#Seniors;#Adaptive",
       "attendance": "23"
     },
-    {
-      "unit": "Recreation",
-      "group_name_partner": "Jonathan Adone",
-      "date_and_time": "2020-08-28T10:00:00.000",
-      "borough": "Brooklyn",
-      "locationtype": "Park",
-      "location": "Leif Ericson Park",
-      "event_name": "Pick UP Pickleball",
-      "event_type": "Local Event",
-      "category": "Fitness",
-      "classification": "Summer 2020",
-      "audience": "Seniors",
-      "attendance": "20"
-    },
+  
     {
       "unit": "Urban Park Rangers",
       "group_name_partner": "Office of Commissioner of Iris Rodriguez Rosa",
@@ -967,19 +625,7 @@
       "audience": "Young Adult;#Adults;#Adaptive;#Seniors;#General Public",
       "attendance": "61"
     },
-    {
-      "unit": "Recreation",
-      "date_and_time": "2019-06-21T17:30:00.000",
-      "borough": "Manhattan",
-      "locationtype": "Recreation Center",
-      "location": "J. Hood Wright Recreation Center",
-      "event_name": "Latin Dance Night",
-      "event_type": "Local Event",
-      "category": "Fitness",
-      "classification": "Dance",
-      "audience": "Children;#Young Adult;#Adults;#Teens;#Seniors;#General Public;#Tot",
-      "attendance": "80"
-    },
+  
     {
       "unit": "Recreation",
       "date_and_time": "2019-06-21T20:00:00.000",
@@ -1076,18 +722,7 @@
       "audience": "General Public",
       "attendance": "136"
     },
-    {
-      "unit": "Recreation",
-      "date_and_time": "2019-06-21T18:00:00.000",
-      "borough": "Manhattan",
-      "locationtype": "Recreation Center",
-      "location": "Asser Levy Recreation Center",
-      "event_name": "Art Inspired By: Frida Kahlo",
-      "event_type": "Agency Produced Event",
-      "category": "Arts/Culture",
-      "audience": "Young Adult;#Adults",
-      "attendance": "19"
-    },
+   
     {
       "unit": "Recreation",
       "date_and_time": "2019-06-21T20:00:00.000",
@@ -1115,18 +750,7 @@
       "audience": "General Public",
       "attendance": "100"
     },
-    {
-      "unit": "Recreation",
-      "date_and_time": "2019-04-13T11:00:00.000",
-      "borough": "Manhattan",
-      "locationtype": "Recreation Center",
-      "location": "Highbridge Recreation Center",
-      "event_name": "Easter Event",
-      "event_type": "Agency Produced Event",
-      "category": "Family Festival",
-      "audience": "Tot;#Children;#General Public",
-      "attendance": "1132"
-    },
+   
     {
       "unit": "Recreation",
       "date_and_time": "2019-03-30T10:00:00.000",
@@ -1222,46 +846,9 @@
       "audience": "General Public",
       "attendance": "387"
     },
-    {
-      "unit": "Recreation",
-      "date_and_time": "2019-02-09T11:00:00.000",
-      "borough": "Manhattan",
-      "locationtype": "Recreation Center",
-      "location": "Hansborough Recreation Center",
-      "event_name": "She's on Point",
-      "event_type": "Agency Produced Event",
-      "category": "Fitness",
-      "classification": "Fitness",
-      "audience": "Children;#Young Adult;#Teens;#General Public",
-      "attendance": "519"
-    },
-    {
-      "unit": "Recreation",
-      "date_and_time": "2019-07-03T09:00:00.000",
-      "borough": "Bronx",
-      "locationtype": "Recreation Center",
-      "location": "St. James Recreation Center",
-      "event_name": "Jump In To Fall Open House Week",
-      "event_type": "Open House",
-      "category": "Fitness",
-      "classification": "Fitness",
-      "audience": "Young Adult;#Adults;#Children;#Teens;#Seniors;#Adaptive;#General Public",
-      "attendance": "100"
-    },
-    {
-      "unit": "Recreation",
-      "group_name_partner": "John Bunge",
-      "date_and_time": "2019-03-21T10:00:00.000",
-      "borough": "Manhattan",
-      "locationtype": "Recreation Center",
-      "location": "Thomas Jefferson Recreation Center",
-      "event_name": "AC&F: Make Your Mark: Fabric Collages",
-      "event_type": "Agency Produced Event",
-      "category": "Arts/Culture",
-      "classification": "AC&F",
-      "audience": "General Public;#Seniors;#Teens;#Adults;#Adaptive",
-      "attendance": "21"
-    },
+  
+    
+  
     {
       "unit": "Recreation",
       "group_name_partner": "John Bunge",
@@ -1366,19 +953,7 @@
       "audience": "Children;#General Public",
       "attendance": "20"
     },
-    {
-      "unit": "Recreation",
-      "date_and_time": "2019-06-21T11:00:00.000",
-      "borough": "Manhattan",
-      "locationtype": "Recreation Center",
-      "location": "Chelsea Recreation Center",
-      "event_name": "Senior Social",
-      "event_type": "Agency Produced Event",
-      "category": "Fitness",
-      "classification": "Dance",
-      "audience": "Seniors",
-      "attendance": "34"
-    },
+   
     {
       "unit": "Recreation",
       "date_and_time": "2019-06-22T09:00:00.000",
@@ -1432,19 +1007,7 @@
       "audience": "General Public",
       "attendance": "75"
     },
-    {
-      "unit": "Recreation",
-      "date_and_time": "2019-03-29T18:30:00.000",
-      "borough": "Manhattan",
-      "locationtype": "Recreation Center",
-      "location": "Recreation Center 54",
-      "event_name": "Strictly Tango",
-      "event_type": "Agency Produced Event",
-      "category": "Arts/Culture",
-      "classification": "Dance",
-      "audience": "Adults;#Teens;#Adaptive;#Seniors;#General Public",
-      "attendance": "62"
-    },
+    
     {
       "unit": "Urban Park Rangers",
       "date_and_time": "2019-06-27T10:30:00.000",
@@ -1458,44 +1021,7 @@
       "audience": "General Public",
       "attendance": "70"
     },
-    {
-      "unit": "Recreation",
-      "date_and_time": "2019-03-16T10:00:00.000",
-      "borough": "Manhattan",
-      "locationtype": "Recreation Center",
-      "location": "Recreation Center 54",
-      "event_name": "Pre-Spring Family Art and Design",
-      "event_type": "Agency Produced Event",
-      "category": "Arts/Culture",
-      "audience": "Adaptive;#Teens;#Adults;#Young Adult;#General Public;#Seniors;#Children",
-      "attendance": "27"
-    },
-    {
-      "unit": "Urban Park Rangers",
-      "group_name_partner": "NYC Parks Central Recreation",
-      "date_and_time": "2019-06-15T11:00:00.000",
-      "borough": "Manhattan",
-      "locationtype": "Park",
-      "location": "Central Park",
-      "event_name": "Adventures NYC",
-      "event_type": "Agency Produced Event",
-      "category": "Sport",
-      "audience": "Children;#Young Adult;#Adults;#Teens",
-      "attendance": "5000"
-    },
-    {
-      "unit": "Urban Park Rangers",
-      "date_and_time": "2019-06-27T10:30:00.000",
-      "borough": "Staten Island",
-      "locationtype": "Pool",
-      "location": "West Brighton",
-      "event_name": "Jaw Dropping Sharks",
-      "event_type": "Agency Produced Event",
-      "category": "Nature",
-      "classification": "Cool Pools",
-      "audience": "General Public",
-      "attendance": "45"
-    },
+  
     {
       "unit": "Recreation",
       "date_and_time": "2018-01-31T00:00:00.000",
