@@ -25,6 +25,9 @@ fetch(url)
           <p>Name: ${item.location}</p>
           <p>Audience: ${item.audience}</p>
           <p>Audience: ${item.date_and_time}</p>
+          <p>Audience: ${item.attendance}</p>
+          <p>Audience:${item.event_name}</p>
+          <p>Audience:${item.event_type}</p>
         </div>
       `;
     });
@@ -34,3 +37,24 @@ fetch(url)
 
   
   
+  fetch(url)
+  .then(response => response.json())
+  .then(data => {
+    const container = document.getElementById('data');
+    let html = '';
+
+    data.forEach((item, index) => {
+      const colorClass = index % 3 === 2 ? 'one' : 'two';
+      html += `
+        <div class="${colorClass}">
+        <p>Audience: ${item.audience}</p>
+          <p>Audience: ${item.date_and_time}</p>
+          <p>Audience: ${item.attendance}</p>
+          <p>Audience:${item.event_name}</p>
+          <p>Audience:${item.event_type}</p>
+        </div>
+      `;
+    });
+
+    container.innerHTML = html;
+  });
