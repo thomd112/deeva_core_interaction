@@ -1,6 +1,6 @@
 body{
-    background-color: #F46036;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ecd8d3;
+    font-family:'Courier New', Courier, monospace;
     
 }
 
@@ -27,6 +27,14 @@ body{
 }
 
 
+#getDataButton {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
 
 
 
