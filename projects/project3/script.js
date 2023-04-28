@@ -23,6 +23,7 @@
                       <h2>${event.event_name}</h2>
                       <p>Borough: ${event.borough}</p>
                       <p>Location: ${event.location}</p>
+                      <p>Attendance: ${event.attendance}</p>
                     `;
                     eventsDiv.appendChild(eventElement);
                   });
