@@ -39,35 +39,26 @@
 
 
 
-  <h1>Full List View</h1>
-  <input type="text" id="searchBar" placeholder="Search...">
-  <select id="categorySelect">
-  
-    <option value="borough">borough</option>
-    <option value="location">location</option>
-    <option value="attendance">attendance</option>
-    <option value="category">category</option>
-    <!-- Add more categories as needed -->
-  </select>
-  <button onclick="filterData()">Filter</button>
-  <table id="dataTable">
-    <thead>
-      <tr>
-        
-        
-      
-        <td><h2>Category</h2></td>
-        <td><h2>Location</h2></td>
-        <td><h2>Borough</h2></td>
-        <td><h2>Attendance</h2></td>
-        
-       
-      </tr>
-    </thead>
-    <tbody id="dataBody">
-    </tbody>
-  </table>
-  <script src="script.js"></script>
+
+
+
+
+
+</head>
+<body>
+	<h1>Show/Hide Data</h1>
+	<button onclick="toggleData()">Toggle Data</button>
+	<div id="data">
+		<!-- Data will be displayed here -->
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+ 
 
 
 

@@ -57,3 +57,9 @@ body{
 #categorySelect {
   color: #4caf50;
 }
+
+
+
+.hide {
+  display: none;
+}

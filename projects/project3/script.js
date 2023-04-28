@@ -27,6 +27,8 @@
                       <p>Attendance: ${event.attendance}</p>
                     `;
                     eventsDiv.appendChild(eventElement);
+                   
+
                   });
                 });
             }
@@ -79,51 +81,56 @@
 
 
 
-
+              const endpoint = 'https://data.cityofnewyork.us/resource/6v4b-5gp4.json';
+              const dataDiv = document.querySelector('#data');
+              
+              function toggleData() {
+                  // check if data is already displayed
+                  if (dataDiv.innerHTML !== '') {
+                      dataDiv.innerHTML = '';
+                  } else {
+                      // fetch the data from the endpoint
+                      fetch(endpoint)
+                          .then(response => response.json())
+                          .then(data => {
+                              // create a table to display the data
+                              const table = document.createElement('table');
+              
+                              // create the table header
+                              const headerRow = table.insertRow();
+                              const locationHeader = headerRow.insertCell();
+                              locationHeader.innerText = 'Location';
+                              const boroughHeader = headerRow.insertCell();
+                              boroughHeader.innerText = 'Borough';
+                              const categoryHeader = headerRow.insertCell();
+                              categoryHeader.innerText = 'Category';
+                              const attendanceHeader = headerRow.insertCell();
+                              attendanceHeader.innerText = 'Attendance';
+              
+                              // loop through the data and create table rows
+                              data.forEach(item => {
+                                  const row = table.insertRow();
+                                  const location = row.insertCell();
+                                  location.innerText = item.location;
+                                  const borough = row.insertCell();
+                                  borough.innerText = item.borough;
+                                  const category = row.insertCell();
+                                  category.innerText = item.category;
+                                  const attendance = row.insertCell();
+                                  attendance.innerText = item.attendance;
+                              });
+              
+                              // add the table to the dataDiv
+                              dataDiv.appendChild(table);
+                          })
+                          .catch(error => console.log(error));
+                  }
+              }
+              
 
 
 
 
 
                         
-              
-              // Load data from the URL
-const url = 'https://data.cityofnewyork.us/resource/6v4b-5gp4.json';
-let data;
-
-fetch(url)
-  .then(response => response.json())
-  .then(json => {
-    data = json;
-  });
-
-// Filter data based on selected category and search query
-function filterData() {
-  const searchBar = document.getElementById('searchBar');
-  const categorySelect = document.getElementById('categorySelect');
-  const searchTerm = searchBar.value.toLowerCase();
-  const selectedCategory = categorySelect.value;
-  const filteredData = data.filter(item => {
-    return item[selectedCategory].toLowerCase().includes(searchTerm);
-  });
-
-  // Display filtered data on the HTML page
-  const dataBody = document.getElementById('dataBody');
-  dataBody.innerHTML = '';
-  filteredData.forEach(item => {
-    const row = document.createElement('tr');
-    row.innerHTML = `
-      
-      
-     
-      <td>${item.category}</td>
-      <td>${item.location}</td>
-      <td>${item.borough}</td>
-      <td>${item.attendance}</td>
-    
-      <!-- Add more columns as needed -->
-    `;
-    dataBody.appendChild(row);
-  });
-}
 
