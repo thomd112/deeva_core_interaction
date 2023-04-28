@@ -113,14 +113,14 @@ function filterData() {
   filteredData.forEach(item => {
     const row = document.createElement('tr');
     row.innerHTML = `
-      <td>${item.unique_key}</td>
-      <td>${item.created_date}</td>
-      <td>${item.complaint_type}</td>
+      
+      
+     
       <td>${item.category}</td>
       <td>${item.location}</td>
       <td>${item.borough}</td>
       <td>${item.attendance}</td>
-      <td>${item.resolution_description}</td>
+    
       <!-- Add more columns as needed -->
     `;
     dataBody.appendChild(row);
