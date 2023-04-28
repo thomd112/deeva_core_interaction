@@ -4,77 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="two.css">
     </head>
-    <title>Filtered NYC Events</title>
-    <style>
-      #events {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
-      .event {
-        margin-bottom: 20px;
-        padding: 10px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-        width: 80%;
-        max-width: 600px;
-      }
-      .event h2 {
-        margin-top: 0;
-        color: #555;
-      }
-      .event-year-2017 {
-        background-color: #ffc107;
-      }
-      .event-year-2018 {
-        background-color: #2196f3;
-        color: #fff;
-      }
-      .event-year-2019 {
-        background-color: #673ab7;
-        color: #fff;
-      }
-      .event-year-2020 {
-        background-color: #ff5722;
-        color: #fff;
-      }
-      .event-year-2021 {
-        background-color: #4caf50;
-        color: #fff;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>Filtered NYC Events</h1>
-    <button onclick="filterEvents()">Show Events from 2017-2021</button>
-    <div id="events"></div>
-    <script>
-      function filterEvents() {
-        // Fetch the data from the API endpoint
-        fetch('https://data.cityofnewyork.us/resource/6v4b-5gp4.json')
-          .then(response => response.json())
-          .then(data => {
-            // Filter the data by year
-            const filteredData = data.filter(event => {
-              const year = new Date(event.date).getFullYear();
-              return year >= 2017 && year <= 2021;
-            });
-            // Render the filtered data on the page
-            const eventsDiv = document.getElementById('events');
-            eventsDiv.innerHTML = '';
-            filteredData.forEach(event => {
-              const eventElement = document.createElement('div');
-              eventElement.className = `event event-year-${new Date(event.date).getFullYear()}`;
-              eventElement.innerHTML = `
-                <h2>${event.name}</h2>
-                <p>Date: ${event.date}</p>
-                <p>Location: ${event.location}</p>
-              `;
-              eventsDiv.appendChild(eventElement);
-            });
-          });
-      }
-    </script>
+    <title>Filtered NYC Events by Audience</title>
+    
   </body>
 </html>
