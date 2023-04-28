@@ -5,17 +5,9 @@ body{
     
 }
 
-
-
-
-
-
-
-
-
       #events {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
       }
       .event {
@@ -29,7 +21,7 @@ body{
       }
       .event h2 {
         margin-top: 0;
-        color: #555;
+        color: rgb(234, 214, 214);
       }
       .event-year-2017 {
         background-color: #ffc107;

@@ -9,6 +9,7 @@
                   const filteredData = data.filter(event => {
                     // console.log(event['date_and_time']);
                     const year = new Date(event['date_and_time']).getFullYear();
+                    console.log(year);
                     return year >= 2017 && year <= 2021;
                   });
 
@@ -18,7 +19,7 @@
                   eventsDiv.innerHTML = '';
                   filteredData.forEach(event => {
                     const eventElement = document.createElement('div');
-                    eventElement.className = `event event-year-${new Date(event.date).getFullYear()}`;
+                    eventElement.className = `event event-year-${new Date(event.date_and_time).getFullYear()}`;
                     eventElement.innerHTML = `
                       <h2>${event.event_name}</h2>
                       <p>Borough: ${event.borough}</p>
