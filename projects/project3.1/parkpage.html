@@ -1,0 +1,95 @@
+
+    
+   
+
+    <!DOCTYPE html>
+<html>
+  
+    <head>
+       
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="https://use.typekit.net/ygv1ego.css">
+        <link rel="stylesheet" href="https://use.typekit.net/ygv1ego.css">
+        <title>Events</title>
+    </head>
+    
+    <title>NYC Events</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+      }
+
+      th {
+        background-color: #ccc;
+      }
+
+      /* Define styles for each borough class */
+      .bronx {
+        background-color: #ffb6c1;
+      }
+
+      .brooklyn {
+        background-color: #87ceeb;
+      }
+
+      .manhattan {
+        background-color: #f08080;
+      }
+
+      .queens {
+        background-color: #9acd32;
+      }
+
+      .staten-island {
+        background-color: #ca590e;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>NYC Events</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Borough</th>
+          <th>Event</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+    <script>
+      fetch('https://data.cityofnewyork.us/resource/6v4b-5gp4.json')
+        .then(response => response.json())
+        .then(data => {
+          const tableBody = document.querySelector('tbody');
+
+          data.forEach(event => {
+            const row = document.createElement('tr');
+
+            const boroughCell = document.createElement('td');
+            boroughCell.textContent = event.borough;
+            row.appendChild(boroughCell);
+
+            const eventCell = document.createElement('td');
+            eventCell.textContent = event.event_name;
+            row.appendChild(eventCell);
+
+            // Add class to row based on borough
+            row.classList.add(event.borough.toLowerCase().replace(/ /g, '-'));
+
+            tableBody.appendChild(row);
+          });
+        })
+        .catch(error => console.error(error));
+    </script>
+  </body>
+</html>
