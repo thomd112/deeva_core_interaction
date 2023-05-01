@@ -1,14 +1,22 @@
-body{
-   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
+@font-face {
+    font-family: "doublebass", sans-serif;
+    src: "https://use.typekit.net/ygv1ego.css";
+}
+
+
+body{
+    font-family: "nobel", sans-serif;
+    font-weight: 800;
+    font-style: normal;
 }
 
  .M {
     
 
-position:relative;
+/* position:relative;
 background:white;
-mix-blend-mode:color-dodge;
+mix-blend-mode:color-dodge; */
 }
 
 .Community{
