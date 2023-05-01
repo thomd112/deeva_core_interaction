@@ -10,6 +10,10 @@ font-size: 4.5rem;
     color: #2F5233;
 }
 
+#hello{
+    text-align: right;
+}
+
 a{
     
     font-size: 1.2rem;
@@ -28,6 +32,6 @@ a:visited {
     color: #50C878;
   }
 
-  p{
-    text-align: left;
-  }
+ p{
+    font-size: 1rem;
+ }
