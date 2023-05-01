@@ -27,3 +27,7 @@ a:hover{
 a:visited {
     color: #50C878;
   }
+
+  p{
+    text-align: center;
+  }
