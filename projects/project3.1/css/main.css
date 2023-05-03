@@ -13,13 +13,14 @@ font-size: 2.5rem;
 
 h1{
     text-align: center;
+    cursor: pointer;
 }
 
 
 p{
     font-size: 1.5rem;
     text-align: center;
-    
+    cursor: pointer;
  }
 
 
@@ -89,3 +90,14 @@ a:visited {
     color: #50C878;
   }
 
+button{
+ height: 50px;
+  width: 100px;
+  background-color: rgb(244, 186, 186);
+  box-shadow: #9acd32;
+  font-family: "menca", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  cursor: pointer;
+    
+}
