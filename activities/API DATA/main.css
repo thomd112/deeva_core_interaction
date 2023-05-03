@@ -1,0 +1,28 @@
+#cocktail-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .cocktail {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+  }
+  
+  .cocktail img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .cocktail h2 {
+    font-size: 20px;
+    margin: 5px 0;
+  }
+  
+  .cocktail p {
+    margin: 5px 0;
+  }
+  
