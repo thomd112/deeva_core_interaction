@@ -5,6 +5,60 @@ font-style: normal;
 font-size: 4.5rem;
 }
 
+
+#data-container {
+    display: none;
+  }
+  
+
+
+
+
+p{
+    font-size: 1.5rem;
+    text-align: center;
+    
+ }
+
+
+ 
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+      }
+
+      th {
+        background-color: #ccc;
+      }
+
+     
+      .bronx {
+        background-color: #fcd720;
+      }
+
+      .brooklyn {
+        background-color: #87ceeb;
+      }
+
+      .manhattan {
+        background-color: #f08080;
+      }
+
+      .queens {
+        background-color: #9acd32;
+      }
+
+      .staten-island {
+        background-color: #fb9857;
+      }
+   
+
 #myHeaders{
     text-align: center;
     color: #2F5233;
@@ -32,6 +86,3 @@ a:visited {
     color: #50C878;
   }
 
- p{
-    font-size: 1rem;
- }
