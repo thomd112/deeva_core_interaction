@@ -9,6 +9,8 @@ color: #2F5233;
 
 
 
+
+
 .flex-container {
   display: flex; 
   justify-content: space-between; 
@@ -24,10 +26,31 @@ color: #2F5233;
   font-family: "menca", sans-serif;
 }
 
+.item1 {
+  flex: 1; 
+  height: 100px;
+  background-color: rgb(255, 255, 255); 
+  margin: 0 10px; 
+  font-size: 1.5rem;
+  padding-top: 10px;
+  font-family: "menca", sans-serif;
+}
 
 
+.flex-container2 {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; }
 
-
+.item {
+  flex: 1; 
+  height: 100px;
+  background-color: rgb(255, 255, 255); 
+  margin: 0 10px; 
+  font-size: 1.5rem;
+  padding-top: 10px;
+  font-family: "menca", sans-serif;
+}
 
 
 
