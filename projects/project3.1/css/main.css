@@ -1,9 +1,38 @@
 body{
-    font-family: "doublebass", sans-serif;
+font-family: "doublebass", sans-serif;
 font-weight: 400;
 font-style: normal;
 font-size: 2.5rem;
+text-align: center;
+color: #2F5233;
 }
+
+
+
+.flex-container {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; }
+
+.item {
+  flex: 1; 
+  height: 100px;
+  background-color: rgb(255, 255, 255); 
+  margin: 0 10px; 
+  font-size: 1.5rem;
+  padding-top: 10px;
+  font-family: "menca", sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 #data-container {
@@ -26,13 +55,13 @@ p{
 
  
       table {
-        border-collapse: collapse;
+ 
         width: 100%;
       }
 
       th, td {
-        border: 1px solid black;
-        padding: 8px;
+        border: 0px solid black;
+        padding: 20px;
         text-align: center;
       
       }
@@ -63,31 +92,29 @@ p{
       }
    
 
-#myHeaders{
-    text-align: center;
-    color: #2F5233;
-}
+
 
 #hello{
     text-align: right;
 }
 
 a{
-    
-    font-size: 1.2rem;
-    text-align: right;
-    font-family: "menca", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    text-decoration: none;
-    color: #2F5233;
+font-family: "doublebass", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 4rem;
+text-align: center;
+text-decoration: none;
+color: #2F5233;
+
+
 }
 
 a:hover{
-    color: aliceblue;
+    color: #9acd32;
 }
 a:visited {
-    color: #50C878;
+  color: #2F5233; 
   }
 
 button{
