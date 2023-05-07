@@ -33,12 +33,15 @@ fetch("https://data.cityofnewyork.us/resource/6v4b-5gp4.json")
   });
 
 
-  let trigger = document.getElementById('trigger'); //get element by id attribute
-  let target = document.querySelector('.target'); //get element by CSS seelector
-  trigger.addEventListener('click', function(){
-      target.classList.toggle('effect');
-  });
 
+  function myFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
 
 
 
