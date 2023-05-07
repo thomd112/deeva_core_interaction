@@ -1,10 +1,11 @@
 body{
-font-family: "doublebass", sans-serif;
-font-weight: 400;
-font-style: normal;
+  font-family: "forma-djr-micro", sans-serif;
+  font-weight: 350;
+  font-style: normal;
 font-size: 2.5rem;
 text-align: center;
-color: #2F5233;
+color: #006400;
+background-color: #FDF5E6;
 }
 
 
@@ -19,7 +20,7 @@ color: #2F5233;
 .item {
   flex: 1; 
   height: 100px;
-  background-color: rgb(255, 255, 255); 
+  background-color: #FDF5E6; 
   margin: 0 10px; 
   font-size: 1.5rem;
   padding-top: 10px;
@@ -29,7 +30,7 @@ color: #2F5233;
 .item1 {
   flex: 1; 
   height: 100px;
-  background-color: rgb(255, 255, 255); 
+  background-color: #FDF5E6; 
   margin: 0 10px; 
   font-size: 1.5rem;
   padding-top: 10px;
@@ -45,7 +46,7 @@ color: #2F5233;
 .item {
   flex: 1; 
   height: 100px;
-  background-color: rgb(255, 255, 255); 
+  background-color: #FDF5E6; 
   margin: 0 10px; 
   font-size: 1.5rem;
   padding-top: 10px;
@@ -71,7 +72,7 @@ h1{
 
 p{
     font-size: 1.5rem;
-    text-align: center;
+    text-align: left;
     
  }
 
@@ -122,9 +123,9 @@ p{
 }
 
 a{
-font-family: "doublebass", sans-serif;
-font-weight: 400;
-font-style: normal;
+  font-family: "forma-djr-micro", sans-serif;
+  font-weight: 00;
+  font-style: normal;
 font-size: 4rem;
 text-align: center;
 text-decoration: none;
