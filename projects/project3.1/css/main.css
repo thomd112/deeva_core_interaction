@@ -99,26 +99,27 @@ p{
 
      
       .bronx {
-        background-color: #fcd720;
+        background-color: rgba(153, 102, 255, 0.5);
       }
 
       .brooklyn {
-        background-color: #87ceeb;
+        background-color:rgba(255, 99, 132, 0.5);
       }
 
       .manhattan {
-        background-color: #f08080;
+        background-color: rgba(54, 162, 235, 0.5);
       }
 
       .queens {
-        background-color: #9acd32;
+        background-color:rgba(75, 192, 192, 0.5) ;
       }
 
       .staten-island {
-        background-color: #fb9857;
+        background-color:rgba(255, 206, 86, 0.5);
       }
    
-
+      
+   
 
 
 #hello{
