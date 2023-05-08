@@ -54,7 +54,10 @@ background-color: #FDF5E6;
 }
 
 
-
+.flex-container3 {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; }
 
 
 
