@@ -318,37 +318,39 @@ window.addEventListener('scroll', () => {
     
     
       
+
+
+
+
+
+<button id="scroll-to-top">Scroll to top</button>
+
           
     
-
-<button id="scrollBtnn">Go to top</button>
-
-
-
 <script>
-const scrollBtnn = document.getElementById('scrollBtnn');
 
-scrollBtn.addEventListener('click', () => {
-  window.scrollTo({
-    top: 0,
-    behavior: 'smooth'
-  });
-});
+const scrollToTopButton = document.getElementById('scroll-to-top');
+
 window.addEventListener('scroll', () => {
-  if (window.pageYOffset > 300) {
-    scrollBtnn.style.display = 'block';
+  if (window.scrollY > 500) {
+    scrollToTopButton.style.display = 'block';
   } else {
-    scrollBtnn.style.display = 'none';
+    scrollToTopButton.style.display = 'none';
   }
 });
 
-
-
-
+scrollToTopButton.addEventListener('click', () => {
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: 'smooth'
+  });
+});
 
 
 
 </script>
+
 
 
 

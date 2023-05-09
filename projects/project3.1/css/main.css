@@ -282,7 +282,7 @@ h3{
   z-index: 99;
   font-size: 18px;
   border: none;
-  outline: 3px green;
+  outline: 3px #375300;
 
   color: white;
   cursor: pointer;
@@ -291,19 +291,19 @@ h3{
 
 
 
-#scrollBtnn {
+#scroll-to-top {
   position: fixed;
   bottom: 20px;
   left: 20px;
-  display: none;
-  z-index: 99;
-  font-size: 18px;
+  padding: 10px 20px;
+  background-color: #006400;
+  color: #fff;
   border: none;
-  outline: none;
-  background-color: #4CAF50;
-  color: white;
+  border-radius: 50%;
   cursor: pointer;
-  padding: 15px;
-  border-radius: 10px;
-  align-items: left;
+  font-family: "forma-djr-micro", sans-serif;
+}
+
+#scroll-to-top:hover {
+  background-color: #006400;
 }
