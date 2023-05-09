@@ -279,7 +279,25 @@
     </body>
     
     
-    
+    <button id="scrollBtn">Go to bottom</button>
+<script>
+  const scrollBtn = document.getElementById('scrollBtn');
+
+scrollBtn.addEventListener('click', () => {
+  window.scrollTo({
+    top: document.body.scrollHeight,
+    behavior: 'smooth'
+  });
+});
+window.addEventListener('scroll', () => {
+  if (window.pageYOffset > 500) {
+    scrollBtn.style.display = 'block';
+  } else {
+    scrollBtn.style.display = 'none';
+  }
+});
+
+</script>
     
     
     
