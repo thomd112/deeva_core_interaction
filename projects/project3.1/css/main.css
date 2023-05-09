@@ -272,7 +272,7 @@ h3{
   background-color: rgb(244, 186, 186);
   box-shadow: #9acd32;
   font-family: "forma-djr-micro", sans-serif;
-  font-size: 0.5rem;
+  
   text-align: center;
   cursor: pointer;
   position: fixed;
@@ -302,6 +302,7 @@ h3{
   border-radius: 50%;
   cursor: pointer;
   font-family: "forma-djr-micro", sans-serif;
+  
 }
 
 #scroll-to-top:hover {
