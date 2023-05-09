@@ -8,9 +8,24 @@ color: #006400;
 background-color: #FDF5E6;
 }
 
+h1{
+  font-family: "forma-djr-micro", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+font-size: 2.5rem;
+text-align: center;
+color: #006400;
+background-color: #FDF5E6;
+cursor: auto;
 
+}
 
+td,tr{
+  font-family: "forma-djr-micro", sans-serif;
+  color: #006400;
+  font-size: 2rem;;
 
+}
 
 .flex-container {
   display: flex; 
@@ -188,6 +203,9 @@ h3{
 .title{
   text-align: left;
   padding-top: 10px;
+  color: #375300;
+  font-weight: 400;
+  cursor: auto;
 }
 
 
