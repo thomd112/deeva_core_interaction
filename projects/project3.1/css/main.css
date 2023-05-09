@@ -57,9 +57,12 @@ background-color: #FDF5E6;
 .flex-container3 {
   display: flex; 
   justify-content: space-between; 
-  align-items: center; }
+  align-items: center; 
+}
 
-
+.flex-container3:hover{
+  font-weight: 400px;
+}
 
 
 #data-container {
@@ -158,9 +161,10 @@ color: #2F5233;
 
 a:hover{
     color: #9acd32;
+    font-weight: 400;
 }
 a:visited {
-  color: #375300; 
+  color: rgb(244, 186, 186); 
   }
 
 button{
