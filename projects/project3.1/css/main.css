@@ -172,13 +172,16 @@ color: #2F5233;
 }
 
 
-
+.years:visited{
+  color: rgb(244, 186, 186); 
+}
 
 
 
 
 a:hover{
-    color: #9acd32;
+    /* color: #9acd32; */
+    color: rgb(244, 186, 186); 
     font-weight: 400;
 }
 a:visited {
