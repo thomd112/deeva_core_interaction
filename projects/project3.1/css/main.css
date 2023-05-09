@@ -184,3 +184,38 @@ h3{
 .title{
   text-align: left;
 }
+
+
+
+
+.text-container {
+  position: relative;
+  width: 100%;
+ 
+}
+
+.animated-text {
+  position: relative;
+ text-align: center;
+  font-size: 3rem;
+  animation: organic-move 5s ease-in-out infinite;
+  animation-iteration-count: 1;
+}
+
+@keyframes organic-move {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(-5%, -5%) rotate(-5deg);
+  }
+  50% {
+    transform: translate(0, -10%) rotate(5deg);
+  }
+  75% {
+    transform: translate(5%, -5%) rotate(-5deg);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
