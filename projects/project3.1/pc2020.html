@@ -1,5 +1,158 @@
 <!DOCTYPE html>
 <html>
+<head>
+	<title>NYC Data for 2017</title>
+	<style>
+		.number {
+			font-size: 24px;
+			font-weight: 400;
+		}
+		.number--bold {
+			font-weight: 700;
+		}
+	</style>
+</head>
+<body>
+	<ul id="number-list">
+	</ul>
+
+	<script src="script.js"></script>
+</body>
+</html>
+<style>
+  .number {
+	font-size: 24px;
+	font-weight: 400;
+}
+
+.number--bold {
+	font-weight: 700;
+}
+
+</style>
+
+<script>const API_ENDPOINT = 'https://data.cityofnewyork.us/resource/6v4b-5gp4.json?$where=date_extract_y(date_and_time)=2017';
+
+  const numberList = document.getElementById("attendance");
+  
+  fetch(API_ENDPOINT)
+    .then(response => response.json())
+    .then(data => {
+      for (let i = 0; i < data.length; i++) {
+        const value = parseFloat(data[i].value);
+        if (!isNaN(value)) {
+          const listItem = document.createElement("li");
+          listItem.innerText = value;
+          listItem.classList.add("number");
+          if (value > 100) {
+            listItem.classList.add("number--bold");
+          }
+          numberList.appendChild(listItem);
+        }
+      }
+    });
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<title>Random Number List</title>
+	<style>
+		.number {
+			font-size: 24px;
+			font-weight: 400;
+		}
+		.number--bold {
+			font-weight: 700;
+		}
+	</style>
+</head>
+<body>
+	<ul id="number-list">
+	</ul>
+
+	<script src="script.js"></script>
+</body>
+</html>
+<style>
+
+.number {
+	font-size: 24px;
+	font-weight: 400;
+}
+
+.number--bold {
+	font-weight: 700;
+}
+
+</style>
+
+<script>
+const numberList = document.getElementById("number-list");
+
+for (let i = 0; i < 20; i++) {
+  const randomNumber = Math.floor(Math.random() * 200) + 1;
+  const listItem = document.createElement("li");
+  listItem.innerText = randomNumber;
+  listItem.classList.add("number");
+  
+  if (randomNumber > 100) {
+    listItem.classList.add("number--bold");
+  }
+  
+  numberList.appendChild(listItem);
+}
+
+
+</script> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
   <head>
     <title>pie chart</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -87,4 +240,12 @@
         });
     </script>
   </body>
-</html>
+</html> 
+
+
+
+
+
+
+
+

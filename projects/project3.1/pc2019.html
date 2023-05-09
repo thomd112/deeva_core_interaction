@@ -1,5 +1,306 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <title>Attendance Data</title>
+  <style>
+    table {
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 5px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Attendance Data</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Interval</th>
+        <th>Attendance Count</th>
+      </tr>
+    </thead>
+    <tbody id="table-body"></tbody>
+  </table>
+  
+  <script>
+    // Define attendance intervals
+    const intervals = [0, 50, 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000,1100,1200,1300.1400,1500];
+    
+    // Initialize attendance counts to zero
+    const attendanceCounts = {};
+    intervals.forEach(interval => {
+      attendanceCounts[interval] = 0;
+    });
+    
+    // Retrieve attendance data from API
+    fetch('https://data.cityofnewyork.us/resource/6v4b-5gp4.json?$where=date_extract_y(date_and_time)=2018')
+      .then(response => response.json())
+      .then(data => {
+        // Loop through attendance data and count attendance based on intervals
+        data.forEach(record => {
+          const attendance = parseInt(record.attendance);
+          intervals.forEach(interval => {
+            if (attendance >= interval && attendance < interval + 100) {
+              attendanceCounts[interval]++;
+            }
+          });
+        });
+        
+        // Display attendance counts in table
+        const tableBody = document.getElementById('table-body');
+        intervals.forEach(interval => {
+          const row = document.createElement('tr');
+          const intervalCell = document.createElement('td');
+          intervalCell.textContent = `${interval} - ${interval + 99}`;
+          const countCell = document.createElement('td');
+          countCell.textContent = attendanceCounts[interval];
+          row.appendChild(intervalCell);
+          row.appendChild(countCell);
+          tableBody.appendChild(row);
+        });
+      });
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>New York City Borough Filter</title>
+  </head>
+  <body>
+    <h1>New York City Borough Filter</h1>
+    <button id="bronx">Bronx</button>
+    <button id="brooklyn">Brooklyn</button>
+    <button id="manhattan">Manhattan</button>
+    <button id="queens">Queens</button>
+    <button id="statenIsland">Staten Island</button>
+    <div id="result"></div>
+    
+    
+  </body>
+</html>
+<style>
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+ </style>
+ <script>
+ const bronxBtn = document.getElementById("bronx");
+ const brooklynBtn = document.getElementById("Brooklyn");
+ const manhattanBtn = document.getElementById("manhattan");
+ const queensBtn = document.getElementById("queens");
+ const statenIslandBtn = document.getElementById("statenIsland");
+ const resultDiv = document.getElementById("result");
+ 
+ bronxBtn.addEventListener("click", function() {
+   fetch('https://data.cityofnewyork.us/resource/6v4b-5gp4.json?$where=date_extract_y(date_and_time)=2017&borough=BRONX')
+     .then(response => response.json())
+     .then(data => {
+       resultDiv.innerText = JSON.stringify(data);
+     })
+ });
+ 
+ brooklynBtn.addEventListener("click", function() {
+   fetch('https://data.cityofnewyork.us/resource/6v4b-5gp4.json?$where=date_extract_y(date_and_time)=2017&borough": "Brooklyn')
+     .then(response => response.json())
+     .then(data => {
+       resultDiv.innerText = JSON.stringify(data);
+     })
+ });
+ 
+ manhattanBtn.addEventListener("click", function() {
+   fetch('https://data.cityofnewyork.us/resource/6v4b-5gp4.json?$where=date_extract_y(date_and_time)=2017&"borough": "Manhattan",')
+     .then(response => response.json())
+     .then(data => {
+       resultDiv.innerText = JSON.stringify(data);
+     })
+ });
+ 
+ queensBtn.addEventListener("click", function() {
+   fetch('https://data.cityofnewyork.us/resource/6v4b-5gp4.json?$where=date_extract_y(date_and_time)=2017&borough=QUEENS')
+     .then(response => response.json())
+     .then(data => {
+       resultDiv.innerText = JSON.stringify(data);
+     })
+ });
+ 
+ statenIslandBtn.addEventListener("click", function() {
+   fetch('https://data.cityofnewyork.us/resource/6v4b-5gp4.json?$where=date_extract_y(date_and_time)=2017&borough=STATEN ISLAND')
+     .then(response => response.json())
+     .then(data => {
+       resultDiv.innerText = JSON.stringify(data);
+     })
+ });
+ 
+ </script> -->
+ 
+ 
+ 
+ 
+<!--  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <!DOCTYPE html>
+ <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <link rel="stylesheet" href="css/main.css">
+        <!-- <link rel="stylesheet" href="https://use.typekit.net/ygv1ego.css">
+        <link rel="stylesheet" href="https://use.typekit.net/ygv1ego.css"> -->
+        <link rel="stylesheet" href="https://use.typekit.net/ipo5udb.css">
+        <link rel="stylesheet" href="https://use.typekit.net/ipo5udb.css">
+        <link rel="icon" type="green.png" href="greeen.png">
+    </head>
+    <html>
+      
+        <head>
+           
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, intial-scale=1.0">
+            <link rel="stylesheet" href="css/main.css">
+            <link rel="stylesheet" href="https://use.typekit.net/ygv1ego.css">
+            <link rel="stylesheet" href="https://use.typekit.net/ygv1ego.css">
+            <link rel="stylesheet" href="https://use.typekit.net/ipo5udb.css">
+            <link rel="stylesheet" href="https://use.typekit.net/ipo5udb.css">
+            <title>Events</title>
+        </head>
+
+
+<div id="boroughs"></div>
+<script>
+fetch('https://data.cityofnewyork.us/resource/6v4b-5gp4.json?$where=date_extract_y(date_and_time)=2017')
+  .then(response => response.json())
+  .then(data => {
+    const boroughs = ['Bronx', 'Brooklyn', 'Manhattan', 'Queens', 'Staten Island'];
+    const boroughsDiv = document.getElementById('boroughs');
+
+    boroughs.forEach(borough => {
+      const button = document.createElement('button');
+      button.textContent = borough;
+      button.addEventListener('click', () => {
+        const filteredData = data.filter(item => item.borough === borough);
+        console.log(filteredData); 
+      });
+      boroughsDiv.appendChild(button);
+    });
+  });
+
+</script>
+<style>
+
+#boroughs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  background-color: #0074D9;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #003f7f;
+}
+
+
+</style>  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
   <head>
     <title>pie chart</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -87,4 +388,4 @@
         });
     </script>
   </body>
-</html>
+</html> 
