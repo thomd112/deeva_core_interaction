@@ -321,6 +321,34 @@ window.addEventListener('scroll', () => {
           
     
 
+<button id="scrollBtnn">Go to top</button>
+
+
+
+<script>
+const scrollBtnn = document.getElementById('scrollBtnn');
+
+scrollBtn.addEventListener('click', () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+});
+window.addEventListener('scroll', () => {
+  if (window.pageYOffset > 300) {
+    scrollBtnn.style.display = 'block';
+  } else {
+    scrollBtnn.style.display = 'none';
+  }
+});
+
+
+
+
+
+
+
+</script>
 
 
 
