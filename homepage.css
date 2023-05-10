@@ -75,3 +75,11 @@ section{
   background: whitesmoke;
   margin: 100px;
 }
+
+
+
+table, th, td {
+  border: 1px dotted;
+  text-align: center;
+  padding: 20px;
+}
